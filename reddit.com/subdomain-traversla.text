@@ -1,0 +1,598 @@
+
+kali@DESKTOP-MBF370S:~/hacking$ nmap -iL reddit-subdomains.txt --script http-cisco-anyconnect.nse -sV -Pn -vv
+Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-05-13 00:00 PKT
+NSE: Loaded 46 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 00:00
+Completed NSE at 00:00, 0.00s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 00:00
+Completed NSE at 00:00, 0.00s elapsed
+Warning: Hostname reddit.com resolves to 4 IPs. Using 151.101.1.140.
+Failed to resolve "snooguts.net".
+Warning: Hostname redd.it resolves to 4 IPs. Using 151.101.129.140.
+Failed to resolve "redditstatic.com".
+Warning: Hostname redditgifts.com resolves to 4 IPs. Using 151.101.65.140.
+Failed to resolve "reddituploads.com".
+Warning: Hostname redditinc.com resolves to 4 IPs. Using 151.101.65.140.
+Warning: Hostname reddithelp.com resolves to 4 IPs. Using 151.101.1.140.
+Failed to resolve "(limited)".
+Warning: Hostname dubsmash.com resolves to 4 IPs. Using 104.21.23.188.
+Initiating Parallel DNS resolution of 8 hosts. at 00:00
+Completed Parallel DNS resolution of 8 hosts. at 00:00, 13.00s elapsed
+Initiating Connect Scan at 00:00
+Scanning 8 hosts [1000 ports/host]
+Discovered open port 8080/tcp on 104.21.23.188
+Discovered open port 443/tcp on 151.101.65.140
+Discovered open port 443/tcp on 151.101.65.140
+Discovered open port 443/tcp on 151.101.129.140
+Discovered open port 443/tcp on 151.101.1.140
+Discovered open port 443/tcp on 151.101.1.140
+Discovered open port 443/tcp on 3.215.169.224
+Discovered open port 80/tcp on 151.101.65.140
+Discovered open port 80/tcp on 151.101.65.140
+Discovered open port 443/tcp on 192.0.66.184
+Discovered open port 80/tcp on 151.101.1.140
+Discovered open port 80/tcp on 151.101.129.140
+Discovered open port 80/tcp on 151.101.1.140
+Discovered open port 80/tcp on 192.0.66.184
+Discovered open port 80/tcp on 3.215.169.224
+Discovered open port 443/tcp on 104.21.23.188
+Discovered open port 80/tcp on 104.21.23.188
+Connect Scan Timing: About 6.53% done; ETC: 00:08 (0:07:24 remaining)
+Connect Scan Timing: About 26.59% done; ETC: 00:04 (0:02:48 remaining)
+Increasing send delay for 151.101.1.140 from 0 to 5 due to 11 out of 34 dropped probes since last increase.
+Connect Scan Timing: About 43.78% done; ETC: 00:04 (0:01:57 remaining)
+Completed Connect Scan against 151.101.1.140 in 92.87s (7 hosts left)
+Increasing send delay for 104.21.23.188 from 0 to 5 due to 11 out of 36 dropped probes since last increase.
+Increasing send delay for 3.215.169.224 from 0 to 5 due to 11 out of 34 dropped probes since last increase.
+Increasing send delay for 192.0.66.184 from 0 to 5 due to 11 out of 30 dropped probes since last increase.
+Increasing send delay for 151.101.129.140 from 0 to 5 due to 11 out of 34 dropped probes since last increase.
+Increasing send delay for 151.101.65.140 from 0 to 5 due to 11 out of 34 dropped probes since last increase.
+Connect Scan Timing: About 62.17% done; ETC: 00:04 (0:01:14 remaining)
+Increasing send delay for 151.101.1.140 from 5 to 10 due to 11 out of 27 dropped probes since last increase.
+Increasing send delay for 151.101.1.140 from 0 to 5 due to 16 out of 53 dropped probes since last increase.
+Discovered open port 8443/tcp on 104.21.23.188
+Increasing send delay for 104.21.23.188 from 5 to 10 due to 11 out of 17 dropped probes since last increase.
+Completed Connect Scan against 151.101.65.140 in 149.73s (6 hosts left)
+Connect Scan Timing: About 79.88% done; ETC: 00:03 (0:00:38 remaining)
+Completed Connect Scan against 151.101.1.140 in 150.68s (5 hosts left)
+Completed Connect Scan against 3.215.169.224 in 167.87s (4 hosts left)
+Increasing send delay for 3.215.169.224 from 5 to 10 due to 11 out of 33 dropped probes since last increase.
+Increasing send delay for 192.0.66.184 from 5 to 10 due to 11 out of 30 dropped probes since last increase.
+Completed Connect Scan against 151.101.129.140 in 172.82s (3 hosts left)
+Completed Connect Scan against 192.0.66.184 in 176.91s (2 hosts left)
+Increasing send delay for 151.101.65.140 from 5 to 10 due to 11 out of 32 dropped probes since last increase.
+Completed Connect Scan against 151.101.65.140 in 179.82s (1 host left)
+Completed Connect Scan at 00:04, 208.71s elapsed (8000 total ports)
+Initiating Service scan at 00:04
+Scanning 18 services on 8 hosts
+Completed Service scan at 00:05, 49.14s elapsed (18 services on 8 hosts)
+NSE: Script scanning 8 hosts.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 00:05
+Stats: 0:04:42 elapsed; 0 hosts completed (8 up), 8 undergoing Script Scan
+NSE: Active NSE Script Threads: 1 (1 waiting)
+NSE Timing: About 99.87% done; ETC: 00:05 (0:00:00 remaining)
+Completed NSE at 00:05, 10.85s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 00:05
+Completed NSE at 00:05, 9.43s elapsed
+Nmap scan report for reddit.com (151.101.1.140)
+Host is up, received user-set (0.043s latency).
+Other addresses for reddit.com (not scanned): 151.101.129.140 151.101.193.140 151.101.65.140
+Scanned at 2021-05-13 00:00:50 PKT for 227s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT    STATE SERVICE    REASON  VERSION
+80/tcp  open  http-proxy syn-ack Varnish
+443/tcp open  ssl/https? syn-ack
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.91%T=SSL%I=7%D=5/13%Time=609C26BF%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,1EE,"HTTP/1\.1\x20500\x20Domain\x20Not\x20Found\r\nConnec
+SF:tion:\x20close\r\nContent-Length:\x20220\r\nServer:\x20Varnish\r\nRetry
+SF:-After:\x200\r\ncontent-type:\x20text/html\r\nCache-Control:\x20private
+SF:,\x20no-cache\r\nX-Served-By:\x20cache-fjr7922-FJR\r\nAccept-Ranges:\x2
+SF:0bytes\r\nDate:\x20Wed,\x2012\x20May\x202021\x2019:04:31\x20GMT\r\nVia:
+SF:\x201\.1\x20varnish\r\n\r\n\n<html>\n<head>\n<title>Fastly\x20error:\x2
+SF:0unknown\x20domain\x20</title>\n</head>\n<body>\n<p>Fastly\x20error:\x2
+SF:0unknown\x20domain:\x20\.\x20Please\x20check\x20that\x20this\x20domain\
+SF:x20has\x20been\x20added\x20to\x20a\x20service\.</p>\n<p>Details:\x20cac
+SF:he-fjr7922-FJR</p></body></html>")%r(HTTPOptions,1EE,"HTTP/1\.1\x20500\
+SF:x20Domain\x20Not\x20Found\r\nConnection:\x20close\r\nContent-Length:\x2
+SF:0220\r\nServer:\x20Varnish\r\nRetry-After:\x200\r\ncontent-type:\x20tex
+SF:t/html\r\nCache-Control:\x20private,\x20no-cache\r\nX-Served-By:\x20cac
+SF:he-fjr7922-FJR\r\nAccept-Ranges:\x20bytes\r\nDate:\x20Wed,\x2012\x20May
+SF:\x202021\x2019:04:31\x20GMT\r\nVia:\x201\.1\x20varnish\r\n\r\n\n<html>\
+SF:n<head>\n<title>Fastly\x20error:\x20unknown\x20domain\x20</title>\n</he
+SF:ad>\n<body>\n<p>Fastly\x20error:\x20unknown\x20domain:\x20\.\x20Please\
+SF:x20check\x20that\x20this\x20domain\x20has\x20been\x20added\x20to\x20a\x
+SF:20service\.</p>\n<p>Details:\x20cache-fjr7922-FJR</p></body></html>")%r
+SF:(FourOhFourRequest,1EE,"HTTP/1\.1\x20500\x20Domain\x20Not\x20Found\r\nC
+SF:onnection:\x20close\r\nContent-Length:\x20220\r\nServer:\x20Varnish\r\n
+SF:Retry-After:\x200\r\ncontent-type:\x20text/html\r\nCache-Control:\x20pr
+SF:ivate,\x20no-cache\r\nX-Served-By:\x20cache-fjr7922-FJR\r\nAccept-Range
+SF:s:\x20bytes\r\nDate:\x20Wed,\x2012\x20May\x202021\x2019:04:31\x20GMT\r\
+SF:nVia:\x201\.1\x20varnish\r\n\r\n\n<html>\n<head>\n<title>Fastly\x20erro
+SF:r:\x20unknown\x20domain\x20</title>\n</head>\n<body>\n<p>Fastly\x20erro
+SF:r:\x20unknown\x20domain:\x20\.\x20Please\x20check\x20that\x20this\x20do
+SF:main\x20has\x20been\x20added\x20to\x20a\x20service\.</p>\n<p>Details:\x
+SF:20cache-fjr7922-FJR</p></body></html>");
+
+Nmap scan report for redd.it (151.101.129.140)
+Host is up, received user-set (0.29s latency).
+Other addresses for redd.it (not scanned): 151.101.1.140 151.101.65.140 151.101.193.140
+Scanned at 2021-05-13 00:00:50 PKT for 270s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT    STATE SERVICE    REASON  VERSION
+80/tcp  open  http-proxy syn-ack Varnish
+443/tcp open  ssl/https  syn-ack Varnish
+| fingerprint-strings:
+|   FourOhFourRequest:
+|     HTTP/1.1 500 Domain Not Found
+|     Connection: close
+|     Content-Length: 220
+|     Server: Varnish
+|     Retry-After: 0
+|     content-type: text/html
+|     Cache-Control: private, no-cache
+|     X-Served-By: cache-qpg1248-QPG
+|     Accept-Ranges: bytes
+|     Date: Wed, 12 May 2021 19:04:34 GMT
+|     Via: 1.1 varnish
+|     <html>
+|     <head>
+|     <title>Fastly error: unknown domain </title>
+|     </head>
+|     <body>
+|     <p>Fastly error: unknown domain: . Please check that this domain has been added to a service.</p>
+|     <p>Details: cache-qpg1248-QPG</p></body></html>
+|   GetRequest:
+|     HTTP/1.1 500 Domain Not Found
+|     Connection: close
+|     Content-Length: 220
+|     Server: Varnish
+|     Retry-After: 0
+|     content-type: text/html
+|     Cache-Control: private, no-cache
+|     X-Served-By: cache-qpg1283-QPG
+|     Accept-Ranges: bytes
+|     Date: Wed, 12 May 2021 19:04:32 GMT
+|     Via: 1.1 varnish
+|     <html>
+|     <head>
+|     <title>Fastly error: unknown domain </title>
+|     </head>
+|     <body>
+|     <p>Fastly error: unknown domain: . Please check that this domain has been added to a service.</p>
+|     <p>Details: cache-qpg1283-QPG</p></body></html>
+|   HTTPOptions:
+|     HTTP/1.1 500 Domain Not Found
+|     Connection: close
+|     Content-Length: 220
+|     Server: Varnish
+|     Retry-After: 0
+|     content-type: text/html
+|     Cache-Control: private, no-cache
+|     X-Served-By: cache-qpg1254-QPG
+|     Accept-Ranges: bytes
+|     Date: Wed, 12 May 2021 19:04:33 GMT
+|     Via: 1.1 varnish
+|     <html>
+|     <head>
+|     <title>Fastly error: unknown domain </title>
+|     </head>
+|     <body>
+|     <p>Fastly error: unknown domain: . Please check that this domain has been added to a service.</p>
+|_    <p>Details: cache-qpg1254-QPG</p></body></html>
+|_http-server-header: Varnish
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.91%T=SSL%I=7%D=5/13%Time=609C26C1%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,1EE,"HTTP/1\.1\x20500\x20Domain\x20Not\x20Found\r\nConnec
+SF:tion:\x20close\r\nContent-Length:\x20220\r\nServer:\x20Varnish\r\nRetry
+SF:-After:\x200\r\ncontent-type:\x20text/html\r\nCache-Control:\x20private
+SF:,\x20no-cache\r\nX-Served-By:\x20cache-qpg1283-QPG\r\nAccept-Ranges:\x2
+SF:0bytes\r\nDate:\x20Wed,\x2012\x20May\x202021\x2019:04:32\x20GMT\r\nVia:
+SF:\x201\.1\x20varnish\r\n\r\n\n<html>\n<head>\n<title>Fastly\x20error:\x2
+SF:0unknown\x20domain\x20</title>\n</head>\n<body>\n<p>Fastly\x20error:\x2
+SF:0unknown\x20domain:\x20\.\x20Please\x20check\x20that\x20this\x20domain\
+SF:x20has\x20been\x20added\x20to\x20a\x20service\.</p>\n<p>Details:\x20cac
+SF:he-qpg1283-QPG</p></body></html>")%r(HTTPOptions,1EE,"HTTP/1\.1\x20500\
+SF:x20Domain\x20Not\x20Found\r\nConnection:\x20close\r\nContent-Length:\x2
+SF:0220\r\nServer:\x20Varnish\r\nRetry-After:\x200\r\ncontent-type:\x20tex
+SF:t/html\r\nCache-Control:\x20private,\x20no-cache\r\nX-Served-By:\x20cac
+SF:he-qpg1254-QPG\r\nAccept-Ranges:\x20bytes\r\nDate:\x20Wed,\x2012\x20May
+SF:\x202021\x2019:04:33\x20GMT\r\nVia:\x201\.1\x20varnish\r\n\r\n\n<html>\
+SF:n<head>\n<title>Fastly\x20error:\x20unknown\x20domain\x20</title>\n</he
+SF:ad>\n<body>\n<p>Fastly\x20error:\x20unknown\x20domain:\x20\.\x20Please\
+SF:x20check\x20that\x20this\x20domain\x20has\x20been\x20added\x20to\x20a\x
+SF:20service\.</p>\n<p>Details:\x20cache-qpg1254-QPG</p></body></html>")%r
+SF:(FourOhFourRequest,1EE,"HTTP/1\.1\x20500\x20Domain\x20Not\x20Found\r\nC
+SF:onnection:\x20close\r\nContent-Length:\x20220\r\nServer:\x20Varnish\r\n
+SF:Retry-After:\x200\r\ncontent-type:\x20text/html\r\nCache-Control:\x20pr
+SF:ivate,\x20no-cache\r\nX-Served-By:\x20cache-qpg1248-QPG\r\nAccept-Range
+SF:s:\x20bytes\r\nDate:\x20Wed,\x2012\x20May\x202021\x2019:04:34\x20GMT\r\
+SF:nVia:\x201\.1\x20varnish\r\n\r\n\n<html>\n<head>\n<title>Fastly\x20erro
+SF:r:\x20unknown\x20domain\x20</title>\n</head>\n<body>\n<p>Fastly\x20erro
+SF:r:\x20unknown\x20domain:\x20\.\x20Please\x20check\x20that\x20this\x20do
+SF:main\x20has\x20been\x20added\x20to\x20a\x20service\.</p>\n<p>Details:\x
+SF:20cache-qpg1248-QPG</p></body></html>");
+
+Nmap scan report for redditblog.com (192.0.66.184)
+Host is up, received user-set (0.28s latency).
+Scanned at 2021-05-13 00:00:50 PKT for 271s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT    STATE SERVICE  REASON  VERSION
+80/tcp  open  http     syn-ack nginx
+443/tcp open  ssl/http syn-ack nginx
+|_http-trane-info: Problem with XML parsing of /evox/about
+
+Nmap scan report for redditmedia.com (3.215.169.224)
+Host is up, received user-set (0.22s latency).
+rDNS record for 3.215.169.224: ec2-3-215-169-224.compute-1.amazonaws.com
+Scanned at 2021-05-13 00:00:50 PKT for 271s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT    STATE SERVICE    REASON  VERSION
+80/tcp  open  http-proxy syn-ack HAProxy http proxy 1.3.1 or later
+443/tcp open  ssl/http   syn-ack nginx 1.14.0 (Ubuntu)
+Service Info: OS: Linux; Device: load balancer; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for redditgifts.com (151.101.65.140)
+Host is up, received user-set (0.29s latency).
+Other addresses for redditgifts.com (not scanned): 151.101.129.140 151.101.1.140 151.101.193.140
+Scanned at 2021-05-13 00:00:50 PKT for 258s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT    STATE SERVICE    REASON  VERSION
+80/tcp  open  http-proxy syn-ack Varnish
+443/tcp open  ssl/https? syn-ack
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.91%T=SSL%I=7%D=5/13%Time=609C26C1%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,1EE,"HTTP/1\.1\x20500\x20Domain\x20Not\x20Found\r\nConnec
+SF:tion:\x20close\r\nContent-Length:\x20220\r\nServer:\x20Varnish\r\nRetry
+SF:-After:\x200\r\ncontent-type:\x20text/html\r\nCache-Control:\x20private
+SF:,\x20no-cache\r\nX-Served-By:\x20cache-qpg1235-QPG\r\nAccept-Ranges:\x2
+SF:0bytes\r\nDate:\x20Wed,\x2012\x20May\x202021\x2019:04:32\x20GMT\r\nVia:
+SF:\x201\.1\x20varnish\r\n\r\n\n<html>\n<head>\n<title>Fastly\x20error:\x2
+SF:0unknown\x20domain\x20</title>\n</head>\n<body>\n<p>Fastly\x20error:\x2
+SF:0unknown\x20domain:\x20\.\x20Please\x20check\x20that\x20this\x20domain\
+SF:x20has\x20been\x20added\x20to\x20a\x20service\.</p>\n<p>Details:\x20cac
+SF:he-qpg1235-QPG</p></body></html>")%r(HTTPOptions,1EE,"HTTP/1\.1\x20500\
+SF:x20Domain\x20Not\x20Found\r\nConnection:\x20close\r\nContent-Length:\x2
+SF:0220\r\nServer:\x20Varnish\r\nRetry-After:\x200\r\ncontent-type:\x20tex
+SF:t/html\r\nCache-Control:\x20private,\x20no-cache\r\nX-Served-By:\x20cac
+SF:he-qpg1273-QPG\r\nAccept-Ranges:\x20bytes\r\nDate:\x20Wed,\x2012\x20May
+SF:\x202021\x2019:04:33\x20GMT\r\nVia:\x201\.1\x20varnish\r\n\r\n\n<html>\
+SF:n<head>\n<title>Fastly\x20error:\x20unknown\x20domain\x20</title>\n</he
+SF:ad>\n<body>\n<p>Fastly\x20error:\x20unknown\x20domain:\x20\.\x20Please\
+SF:x20check\x20that\x20this\x20domain\x20has\x20been\x20added\x20to\x20a\x
+SF:20service\.</p>\n<p>Details:\x20cache-qpg1273-QPG</p></body></html>")%r
+SF:(FourOhFourRequest,1EE,"HTTP/1\.1\x20500\x20Domain\x20Not\x20Found\r\nC
+SF:onnection:\x20close\r\nContent-Length:\x20220\r\nServer:\x20Varnish\r\n
+SF:Retry-After:\x200\r\ncontent-type:\x20text/html\r\nCache-Control:\x20pr
+SF:ivate,\x20no-cache\r\nX-Served-By:\x20cache-qpg1278-QPG\r\nAccept-Range
+SF:s:\x20bytes\r\nDate:\x20Wed,\x2012\x20May\x202021\x2019:04:34\x20GMT\r\
+SF:nVia:\x201\.1\x20varnish\r\n\r\n\n<html>\n<head>\n<title>Fastly\x20erro
+SF:r:\x20unknown\x20domain\x20</title>\n</head>\n<body>\n<p>Fastly\x20erro
+SF:r:\x20unknown\x20domain:\x20\.\x20Please\x20check\x20that\x20this\x20do
+SF:main\x20has\x20been\x20added\x20to\x20a\x20service\.</p>\n<p>Details:\x
+SF:20cache-qpg1278-QPG</p></body></html>");
+
+Nmap scan report for redditinc.com (151.101.65.140)
+Host is up, received user-set (0.29s latency).
+Other addresses for redditinc.com (not scanned): 151.101.193.140 151.101.129.140 151.101.1.140
+Scanned at 2021-05-13 00:00:50 PKT for 270s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT    STATE SERVICE    REASON  VERSION
+80/tcp  open  http-proxy syn-ack Varnish
+443/tcp open  ssl/https  syn-ack Varnish
+| fingerprint-strings:
+|   FourOhFourRequest:
+|     HTTP/1.1 500 Domain Not Found
+|     Connection: close
+|     Content-Length: 220
+|     Server: Varnish
+|     Retry-After: 0
+|     content-type: text/html
+|     Cache-Control: private, no-cache
+|     X-Served-By: cache-qpg1232-QPG
+|     Accept-Ranges: bytes
+|     Date: Wed, 12 May 2021 19:04:34 GMT
+|     Via: 1.1 varnish
+|     <html>
+|     <head>
+|     <title>Fastly error: unknown domain </title>
+|     </head>
+|     <body>
+|     <p>Fastly error: unknown domain: . Please check that this domain has been added to a service.</p>
+|     <p>Details: cache-qpg1232-QPG</p></body></html>
+|   GetRequest:
+|     HTTP/1.1 500 Domain Not Found
+|     Connection: close
+|     Content-Length: 220
+|     Server: Varnish
+|     Retry-After: 0
+|     content-type: text/html
+|     Cache-Control: private, no-cache
+|     X-Served-By: cache-qpg1264-QPG
+|     Accept-Ranges: bytes
+|     Date: Wed, 12 May 2021 19:04:32 GMT
+|     Via: 1.1 varnish
+|     <html>
+|     <head>
+|     <title>Fastly error: unknown domain </title>
+|     </head>
+|     <body>
+|     <p>Fastly error: unknown domain: . Please check that this domain has been added to a service.</p>
+|     <p>Details: cache-qpg1264-QPG</p></body></html>
+|   HTTPOptions:
+|     HTTP/1.1 500 Domain Not Found
+|     Connection: close
+|     Content-Length: 220
+|     Server: Varnish
+|     Retry-After: 0
+|     content-type: text/html
+|     Cache-Control: private, no-cache
+|     X-Served-By: cache-qpg1275-QPG
+|     Accept-Ranges: bytes
+|     Date: Wed, 12 May 2021 19:04:33 GMT
+|     Via: 1.1 varnish
+|     <html>
+|     <head>
+|     <title>Fastly error: unknown domain </title>
+|     </head>
+|     <body>
+|     <p>Fastly error: unknown domain: . Please check that this domain has been added to a service.</p>
+|_    <p>Details: cache-qpg1275-QPG</p></body></html>
+| fingerprint-strings:
+|   FourOhFourRequest:
+|     HTTP/1.1 500 Domain Not Found
+|     Connection: close
+|     Content-Length: 220
+|     Server: Varnish
+|     Retry-After: 0
+|     content-type: text/html
+|     Cache-Control: private, no-cache
+|     X-Served-By: cache-qpg1232-QPG
+|     Accept-Ranges: bytes
+|     Date: Wed, 12 May 2021 19:04:34 GMT
+|     Via: 1.1 varnish
+|     <html>
+|     <head>
+|     <title>Fastly error: unknown domain </title>
+|     </head>
+|     <body>
+|     <p>Fastly error: unknown domain: . Please check that this domain has been added to a service.</p>
+|     <p>Details: cache-qpg1232-QPG</p></body></html>
+|   GetRequest:
+|     HTTP/1.1 500 Domain Not Found
+|     Connection: close
+|     Content-Length: 220
+|     Server: Varnish
+|     Retry-After: 0
+|     content-type: text/html
+|     Cache-Control: private, no-cache
+|     X-Served-By: cache-qpg1264-QPG
+|     Accept-Ranges: bytes
+|     Date: Wed, 12 May 2021 19:04:32 GMT
+|     Via: 1.1 varnish
+|     <html>
+|     <head>
+|     <title>Fastly error: unknown domain </title>
+|     </head>
+|     <body>
+|     <p>Fastly error: unknown domain: . Please check that this domain has been added to a service.</p>
+|     <p>Details: cache-qpg1264-QPG</p></body></html>
+|   HTTPOptions:
+|     HTTP/1.1 500 Domain Not Found
+|     Connection: close
+|     Content-Length: 220
+|     Server: Varnish
+|     Retry-After: 0
+|     content-type: text/html
+|     Cache-Control: private, no-cache
+|     X-Served-By: cache-qpg1275-QPG
+|     Accept-Ranges: bytes
+|     Date: Wed, 12 May 2021 19:04:33 GMT
+|     Via: 1.1 varnish
+|     <html>
+|     <head>
+|     <title>Fastly error: unknown domain </title>
+|     </head>
+|     <body>
+|     <p>Fastly error: unknown domain: . Please check that this domain has been added to a service.</p>
+|_    <p>Details: cache-qpg1275-QPG</p></body></html>
+| http-server-header:
+|   Varnish
+|_  nginx
+|_http-server-header: Varnish
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.91%T=SSL%I=7%D=5/13%Time=609C26C0%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,1EE,"HTTP/1\.1\x20500\x20Domain\x20Not\x20Found\r\nConnec
+SF:tion:\x20close\r\nContent-Length:\x20220\r\nServer:\x20Varnish\r\nRetry
+SF:-After:\x200\r\ncontent-type:\x20text/html\r\nCache-Control:\x20private
+SF:,\x20no-cache\r\nX-Served-By:\x20cache-qpg1264-QPG\r\nAccept-Ranges:\x2
+SF:0bytes\r\nDate:\x20Wed,\x2012\x20May\x202021\x2019:04:32\x20GMT\r\nVia:
+SF:\x201\.1\x20varnish\r\n\r\n\n<html>\n<head>\n<title>Fastly\x20error:\x2
+SF:0unknown\x20domain\x20</title>\n</head>\n<body>\n<p>Fastly\x20error:\x2
+SF:0unknown\x20domain:\x20\.\x20Please\x20check\x20that\x20this\x20domain\
+SF:x20has\x20been\x20added\x20to\x20a\x20service\.</p>\n<p>Details:\x20cac
+SF:he-qpg1264-QPG</p></body></html>")%r(HTTPOptions,1EE,"HTTP/1\.1\x20500\
+SF:x20Domain\x20Not\x20Found\r\nConnection:\x20close\r\nContent-Length:\x2
+SF:0220\r\nServer:\x20Varnish\r\nRetry-After:\x200\r\ncontent-type:\x20tex
+SF:t/html\r\nCache-Control:\x20private,\x20no-cache\r\nX-Served-By:\x20cac
+SF:he-qpg1275-QPG\r\nAccept-Ranges:\x20bytes\r\nDate:\x20Wed,\x2012\x20May
+SF:\x202021\x2019:04:33\x20GMT\r\nVia:\x201\.1\x20varnish\r\n\r\n\n<html>\
+SF:n<head>\n<title>Fastly\x20error:\x20unknown\x20domain\x20</title>\n</he
+SF:ad>\n<body>\n<p>Fastly\x20error:\x20unknown\x20domain:\x20\.\x20Please\
+SF:x20check\x20that\x20this\x20domain\x20has\x20been\x20added\x20to\x20a\x
+SF:20service\.</p>\n<p>Details:\x20cache-qpg1275-QPG</p></body></html>")%r
+SF:(FourOhFourRequest,1EE,"HTTP/1\.1\x20500\x20Domain\x20Not\x20Found\r\nC
+SF:onnection:\x20close\r\nContent-Length:\x20220\r\nServer:\x20Varnish\r\n
+SF:Retry-After:\x200\r\ncontent-type:\x20text/html\r\nCache-Control:\x20pr
+SF:ivate,\x20no-cache\r\nX-Served-By:\x20cache-qpg1232-QPG\r\nAccept-Range
+SF:s:\x20bytes\r\nDate:\x20Wed,\x2012\x20May\x202021\x2019:04:34\x20GMT\r\
+SF:nVia:\x201\.1\x20varnish\r\n\r\n\n<html>\n<head>\n<title>Fastly\x20erro
+SF:r:\x20unknown\x20domain\x20</title>\n</head>\n<body>\n<p>Fastly\x20erro
+SF:r:\x20unknown\x20domain:\x20\.\x20Please\x20check\x20that\x20this\x20do
+SF:main\x20has\x20been\x20added\x20to\x20a\x20service\.</p>\n<p>Details:\x
+SF:20cache-qpg1232-QPG</p></body></html>");
+
+Nmap scan report for reddithelp.com (151.101.1.140)
+Host is up, received user-set (0.040s latency).
+Other addresses for reddithelp.com (not scanned): 151.101.65.140 151.101.193.140 151.101.129.140
+Scanned at 2021-05-13 00:00:50 PKT for 270s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT    STATE SERVICE    REASON  VERSION
+80/tcp  open  http-proxy syn-ack Varnish
+|_http-server-header: snooserv
+443/tcp open  ssl/https  syn-ack Varnish
+| fingerprint-strings:
+|   FourOhFourRequest, HTTPOptions:
+|     HTTP/1.1 500 Domain Not Found
+|     Connection: close
+|     Content-Length: 220
+|     Server: Varnish
+|     Retry-After: 0
+|     content-type: text/html
+|     Cache-Control: private, no-cache
+|     X-Served-By: cache-fjr7921-FJR
+|     Accept-Ranges: bytes
+|     Date: Wed, 12 May 2021 19:04:31 GMT
+|     Via: 1.1 varnish
+|     <html>
+|     <head>
+|     <title>Fastly error: unknown domain </title>
+|     </head>
+|     <body>
+|     <p>Fastly error: unknown domain: . Please check that this domain has been added to a service.</p>
+|     <p>Details: cache-fjr7921-FJR</p></body></html>
+|   GetRequest:
+|     HTTP/1.1 500 Domain Not Found
+|     Connection: close
+|     Content-Length: 220
+|     Server: Varnish
+|     Retry-After: 0
+|     content-type: text/html
+|     Cache-Control: private, no-cache
+|     X-Served-By: cache-fjr7922-FJR
+|     Accept-Ranges: bytes
+|     Date: Wed, 12 May 2021 19:04:31 GMT
+|     Via: 1.1 varnish
+|     <html>
+|     <head>
+|     <title>Fastly error: unknown domain </title>
+|     </head>
+|     <body>
+|     <p>Fastly error: unknown domain: . Please check that this domain has been added to a service.</p>
+|_    <p>Details: cache-fjr7922-FJR</p></body></html>
+| fingerprint-strings:
+|   FourOhFourRequest, HTTPOptions:
+|     HTTP/1.1 500 Domain Not Found
+|     Connection: close
+|     Content-Length: 220
+|     Server: Varnish
+|     Retry-After: 0
+|     content-type: text/html
+|     Cache-Control: private, no-cache
+|     X-Served-By: cache-fjr7921-FJR
+|     Accept-Ranges: bytes
+|     Date: Wed, 12 May 2021 19:04:31 GMT
+|     Via: 1.1 varnish
+|     <html>
+|     <head>
+|     <title>Fastly error: unknown domain </title>
+|     </head>
+|     <body>
+|     <p>Fastly error: unknown domain: . Please check that this domain has been added to a service.</p>
+|     <p>Details: cache-fjr7921-FJR</p></body></html>
+|   GetRequest:
+|     HTTP/1.1 500 Domain Not Found
+|     Connection: close
+|     Content-Length: 220
+|     Server: Varnish
+|     Retry-After: 0
+|     content-type: text/html
+|     Cache-Control: private, no-cache
+|     X-Served-By: cache-fjr7922-FJR
+|     Accept-Ranges: bytes
+|     Date: Wed, 12 May 2021 19:04:31 GMT
+|     Via: 1.1 varnish
+|     <html>
+|     <head>
+|     <title>Fastly error: unknown domain </title>
+|     </head>
+|     <body>
+|     <p>Fastly error: unknown domain: . Please check that this domain has been added to a service.</p>
+|_    <p>Details: cache-fjr7922-FJR</p></body></html>
+| http-server-header:
+|   Varnish
+|_  snooserv
+| http-server-header:
+|   Varnish
+|_  cloudflare
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.91%T=SSL%I=7%D=5/13%Time=609C26BF%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,1EE,"HTTP/1\.1\x20500\x20Domain\x20Not\x20Found\r\nConnec
+SF:tion:\x20close\r\nContent-Length:\x20220\r\nServer:\x20Varnish\r\nRetry
+SF:-After:\x200\r\ncontent-type:\x20text/html\r\nCache-Control:\x20private
+SF:,\x20no-cache\r\nX-Served-By:\x20cache-fjr7922-FJR\r\nAccept-Ranges:\x2
+SF:0bytes\r\nDate:\x20Wed,\x2012\x20May\x202021\x2019:04:31\x20GMT\r\nVia:
+SF:\x201\.1\x20varnish\r\n\r\n\n<html>\n<head>\n<title>Fastly\x20error:\x2
+SF:0unknown\x20domain\x20</title>\n</head>\n<body>\n<p>Fastly\x20error:\x2
+SF:0unknown\x20domain:\x20\.\x20Please\x20check\x20that\x20this\x20domain\
+SF:x20has\x20been\x20added\x20to\x20a\x20service\.</p>\n<p>Details:\x20cac
+SF:he-fjr7922-FJR</p></body></html>")%r(HTTPOptions,1EE,"HTTP/1\.1\x20500\
+SF:x20Domain\x20Not\x20Found\r\nConnection:\x20close\r\nContent-Length:\x2
+SF:0220\r\nServer:\x20Varnish\r\nRetry-After:\x200\r\ncontent-type:\x20tex
+SF:t/html\r\nCache-Control:\x20private,\x20no-cache\r\nX-Served-By:\x20cac
+SF:he-fjr7921-FJR\r\nAccept-Ranges:\x20bytes\r\nDate:\x20Wed,\x2012\x20May
+SF:\x202021\x2019:04:31\x20GMT\r\nVia:\x201\.1\x20varnish\r\n\r\n\n<html>\
+SF:n<head>\n<title>Fastly\x20error:\x20unknown\x20domain\x20</title>\n</he
+SF:ad>\n<body>\n<p>Fastly\x20error:\x20unknown\x20domain:\x20\.\x20Please\
+SF:x20check\x20that\x20this\x20domain\x20has\x20been\x20added\x20to\x20a\x
+SF:20service\.</p>\n<p>Details:\x20cache-fjr7921-FJR</p></body></html>")%r
+SF:(FourOhFourRequest,1EE,"HTTP/1\.1\x20500\x20Domain\x20Not\x20Found\r\nC
+SF:onnection:\x20close\r\nContent-Length:\x20220\r\nServer:\x20Varnish\r\n
+SF:Retry-After:\x200\r\ncontent-type:\x20text/html\r\nCache-Control:\x20pr
+SF:ivate,\x20no-cache\r\nX-Served-By:\x20cache-fjr7921-FJR\r\nAccept-Range
+SF:s:\x20bytes\r\nDate:\x20Wed,\x2012\x20May\x202021\x2019:04:31\x20GMT\r\
+SF:nVia:\x201\.1\x20varnish\r\n\r\n\n<html>\n<head>\n<title>Fastly\x20erro
+SF:r:\x20unknown\x20domain\x20</title>\n</head>\n<body>\n<p>Fastly\x20erro
+SF:r:\x20unknown\x20domain:\x20\.\x20Please\x20check\x20that\x20this\x20do
+SF:main\x20has\x20been\x20added\x20to\x20a\x20service\.</p>\n<p>Details:\x
+SF:20cache-fjr7921-FJR</p></body></html>");
+
+Nmap scan report for dubsmash.com (104.21.23.188)
+Host is up, received user-set (0.29s latency).
+Other addresses for dubsmash.com (not scanned): 172.67.212.192 2606:4700:3032::6815:17bc 2606:4700:3031::ac43:d4c0
+Scanned at 2021-05-13 00:00:50 PKT for 278s
+Not shown: 996 filtered ports
+Reason: 996 no-responses
+PORT     STATE SERVICE  REASON  VERSION
+80/tcp   open  http     syn-ack Cloudflare http proxy
+|_http-server-header: cloudflare
+443/tcp  open  ssl/http syn-ack Cloudflare http proxy
+|_http-server-header: cloudflare
+8080/tcp open  http     syn-ack Cloudflare http proxy
+|_http-server-header: cloudflare
+8443/tcp open  ssl/http syn-ack Cloudflare http proxy
+|_http-server-header: cloudflare
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 00:05
+Completed NSE at 00:05, 0.00s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 00:05
+Completed NSE at 00:05, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 8 IP addresses (8 hosts up) scanned in 293.66 seconds

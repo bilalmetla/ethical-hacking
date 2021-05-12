@@ -1,0 +1,1935 @@
+kali@DESKTOP-MBF370S:~/hacking$ nmap -iL zebra-sub-domains.txt --script http-cisco-anyconnect.nse -sV -Pn -vv
+Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-05-12 21:34 PKT
+NSE: Loaded 46 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 21:34
+Completed NSE at 21:34, 0.00s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 21:34
+Completed NSE at 21:34, 0.00s elapsed
+Warning: Hostname www.zebra.com resolves to 3 IPs. Using 104.111.170.148.
+Failed to resolve "003rav.zebra.com".
+Failed to resolve "014rav.zebra.com".
+Failed to resolve "03vpn.zebra.com".
+Failed to resolve "06vpn.zebra.com".
+Failed to resolve "06zrm.zebra.com".
+Failed to resolve "06zro.zebra.com".
+Failed to resolve "66SP-WSPEAPP01.zebra.com".
+Failed to resolve "66SP-WSPEAPP02.zebra.com".
+Failed to resolve "66sp-wspeapp01.zebra.com".
+Failed to resolve "66sp-wspedmz01.zebra.com".
+Failed to resolve "PDMSRelay.zebra.com".
+Failed to resolve "PDMSrelay.zebra.com".
+Failed to resolve "ZMX64-SBC.zebra.com".
+Failed to resolve "ag-accounts.zebra.com".
+Warning: Hostname ag-cdn.zebra.com resolves to 4 IPs. Using 13.35.183.38.
+Failed to resolve "ag-sso.zebra.com".
+Failed to resolve "api2.zebra.com".
+Warning: Hostname app-zebralocationsolutions.zebra.com resolves to 3 IPs. Using 184.25.248.6.
+Failed to resolve "artifactory-blr.zebra.com".
+Failed to resolve "artifactory-mission-control.zebra.com".
+Failed to resolve "artifactory-ny.zebra.com".
+Warning: Hostname autodiscover.zebra.com resolves to 6 IPs. Using 52.98.61.40.
+Warning: Hostname avp.zebra.com resolves to 8 IPs. Using 216.239.38.21.
+Warning: Hostname avs.avp.zebra.com resolves to 2 IPs. Using 172.217.169.243.
+Failed to resolve "api.avs.avp.zebra.com".
+Failed to resolve "dev.d.api.avs.avp.zebra.com".
+Failed to resolve "tst.t.api.avs.avp.zebra.com".
+Failed to resolve "blue.avs.avp.zebra.com".
+Failed to resolve "dev.d.avs.avp.zebra.com".
+Failed to resolve "green.avs.avp.zebra.com".
+Failed to resolve "prd2.avs.avp.zebra.com".
+Warning: Hostname tst.t.avs.avp.zebra.com resolves to 2 IPs. Using 216.58.210.83.
+Failed to resolve "uat.t.avs.avp.zebra.com".
+Failed to resolve "customer.avp.zebra.com".
+Failed to resolve "dev.t.demo.avp.zebra.com".
+Failed to resolve "tst.t.demo.avp.zebra.com".
+Failed to resolve "lan.avp.zebra.com".
+Failed to resolve "ovs.avp.zebra.com".
+Failed to resolve "api.ovs.avp.zebra.com".
+Failed to resolve "dev.d.api.ovs.avp.zebra.com".
+Failed to resolve "tst.t.api.ovs.avp.zebra.com".
+Warning: Hostname ovsl.avp.zebra.com resolves to 2 IPs. Using 172.217.169.243.
+Failed to resolve "blue.ovsl.avp.zebra.com".
+Failed to resolve "demo.d.ovsl.avp.zebra.com".
+Failed to resolve "dev.d.ovsl.avp.zebra.com".
+Failed to resolve "green.ovsl.avp.zebra.com".
+Failed to resolve "dem.t.ovsl.avp.zebra.com".
+Failed to resolve "s1.t.ovsl.avp.zebra.com".
+Failed to resolve "svc.t.ovsl.avp.zebra.com".
+Failed to resolve "test.t.ovsl.avp.zebra.com".
+Failed to resolve "tst.t.ovsl.avp.zebra.com".
+Failed to resolve "uat.t.ovsl.avp.zebra.com".
+Warning: Hostname ovsrefresh.avp.zebra.com resolves to 2 IPs. Using 142.250.185.51.
+Failed to resolve "blue.ovsrefresh.avp.zebra.com".
+Failed to resolve "green.ovsrefresh.avp.zebra.com".
+Warning: Hostname avp-avs.zebra.com resolves to 8 IPs. Using 216.239.34.21.
+Failed to resolve "avp-cat1.zebra.com".
+Failed to resolve "customer.avp-cat1.zebra.com".
+Failed to resolve "avp-cat1-avs.zebra.com".
+Failed to resolve "avp-cat1-ovs.zebra.com".
+Failed to resolve "customer.avp-cat1-ovs.zebra.com".
+Failed to resolve "avp-cat1-reports.zebra.com".
+Failed to resolve "avp-dev-reports.zebra.com".
+Warning: Hostname avp-ovs.zebra.com resolves to 8 IPs. Using 216.239.32.21.
+Failed to resolve "customer.avp-ovs.zebra.com".
+Failed to resolve "avp-reports.zebra.com".
+Failed to resolve "vs1dda1.avsl.zebra.com".
+Failed to resolve "battman.zebra.com".
+Failed to resolve "clm.zebra.com".
+Failed to resolve "clm-dev.zebra.com".
+Failed to resolve "cnzin52.zebra.com".
+Failed to resolve "collaborator.zebra.com".
+Failed to resolve "collaborator-dev.zebra.com".
+Failed to resolve "dev-artifactory-blr.zebra.com".
+Failed to resolve "dev-artifactory-ny.zebra.com".
+Failed to resolve "dev-dcspolarion.zebra.com".
+Failed to resolve "dev-lx-barapi.zebra.com".
+Failed to resolve "dev-mission-control.zebra.com".
+Failed to resolve "dev-sml-lb01.zebra.com".
+Failed to resolve "dev1-signup.zebra.com".
+Warning: Hostname developer.zebra.com resolves to 3 IPs. Using 23.185.0.1.
+Failed to resolve "devgerrit.zebra.com".
+Failed to resolve "device-avatar.zebra.com".
+Warning: Hostname downloads.zebra.com resolves to 3 IPs. Using 104.111.170.148.
+Failed to resolve "dszin52.zebra.com".
+Failed to resolve "dtrk.zebra.com".
+Failed to resolve "dtrkdemo.zebra.com".
+Failed to resolve "emc-dev.zebra.com".
+Failed to resolve "emc-dev-mbed-device-server.zebra.com".
+Failed to resolve "evtdocs.zebra.com".
+Failed to resolve "evtgit.zebra.com".
+Failed to resolve "evtlogs.zebra.com".
+Failed to resolve "evtpypi.zebra.com".
+Failed to resolve "gerrit.zebra.com".
+Failed to resolve "ing.gms.zebra.com".
+Failed to resolve "gke.t.ops.gms.zebra.com".
+Failed to resolve "hybrid.zebra.com".
+Failed to resolve "internal-api.zebra.com".
+Failed to resolve "intmail3.zebra.com".
+Failed to resolve "legacy.zebra.com".
+Warning: Hostname lyncdiscover.zebra.com resolves to 2 IPs. Using 52.113.64.150.
+Warning: Hostname marketing-api.zebra.com resolves to 3 IPs. Using 104.111.170.148.
+Warning: Hostname medialibrary.zebra.com resolves to 3 IPs. Using 104.111.170.148.
+Failed to resolve "mlmsti14web01.zebra.com".
+Failed to resolve "mlmsti25.zebra.com".
+Warning: Hostname mlmsti37dma.zebra.com resolves to 2 IPs. Using 3.139.141.143.
+Failed to resolve "mlmsti39.zebra.com".
+Failed to resolve "mlmstixx.zebra.com".
+Failed to resolve "us.mobile.zebra.com".
+Warning: Hostname newslink.zebra.com resolves to 2 IPs. Using 45.79.32.87.
+Warning: Hostname newsondemand.zebra.com resolves to 2 IPs. Using 45.79.32.87.
+Warning: Hostname orig-stage-downloads.zebra.com resolves to 2 IPs. Using 52.22.86.196.
+Warning: Hostname orig-stage-www.zebra.com resolves to 2 IPs. Using 52.22.86.196.
+Warning: Hostname orig-www.zebra.com resolves to 4 IPs. Using 34.238.108.230.
+Warning: Hostname owa.zebra.com resolves to 6 IPs. Using 52.98.61.34.
+Failed to resolve "partnerconnections.zebra.com".
+Warning: Hostname partnertransition.zebra.com resolves to 2 IPs. Using 101.50.113.26.
+Failed to resolve "patientflow.zebra.com".
+Failed to resolve "ppc-dev.zebra.com".
+Failed to resolve "ppc2test.zebra.com".
+Failed to resolve "Trial117.pttpro.zebra.com".
+Warning: Hostname download.pttpro.zebra.com resolves to 12 IPs. Using 13.35.183.92.
+Failed to resolve "mgr-stage01.pttpro.zebra.com".
+Failed to resolve "rancher.ops.pttpro.zebra.com".
+Failed to resolve "tdds-tx120.pttpro.zebra.com".
+Failed to resolve "trial1.pttpro.zebra.com".
+Failed to resolve "trial118.pttpro.zebra.com".
+Failed to resolve "trial119.pttpro.zebra.com".
+Failed to resolve "trial120.pttpro.zebra.com".
+Failed to resolve "trial122.pttpro.zebra.com".
+Failed to resolve "trial123.pttpro.zebra.com".
+Failed to resolve "trial124.pttpro.zebra.com".
+Failed to resolve "trial2.pttpro.zebra.com".
+Failed to resolve "qa-jiracloud.zebra.com".
+Failed to resolve "rav.zebra.com".
+Failed to resolve "050-test.rav.zebra.com".
+Warning: Hostname saleslens.zebra.com resolves to 2 IPs. Using 217.160.0.141.
+Failed to resolve "samlsign.zebra.com".
+Failed to resolve "samltestsign.zebra.com".
+Failed to resolve "api.savanna.zebra.com".
+Failed to resolve "api-rta-staging.savanna.zebra.com".
+Warning: Hostname developer.savanna.zebra.com resolves to 3 IPs. Using 23.185.0.2.
+Warning: Hostname developer-dev.savanna.zebra.com resolves to 3 IPs. Using 23.185.0.2.
+Warning: Hostname developer-test.savanna.zebra.com resolves to 3 IPs. Using 23.185.0.1.
+Warning: Hostname devices.savanna.zebra.com resolves to 2 IPs. Using 35.170.251.165.
+Failed to resolve "devices-staging.savanna.zebra.com".
+Failed to resolve "eap.savanna.zebra.com".
+Failed to resolve "sandbox.savanna.zebra.com".
+Failed to resolve "sls.savannacore.zebra.com".
+Warning: Hostname dev.walmart.services.zebra.com resolves to 2 IPs. Using 52.225.133.240.
+Warning: Hostname signup.zebra.com resolves to 3 IPs. Using 104.111.170.148.
+Failed to resolve "silva.zebra.com".
+Failed to resolve "simulscan1.zebra.com".
+Warning: Hostname sip.zebra.com resolves to 5 IPs. Using 52.113.64.147.
+Failed to resolve "skype-polycom.zebra.com".
+Failed to resolve "skype-test-polycom.zebra.com".
+Warning: Hostname social.zebra.com resolves to 4 IPs. Using 20.186.186.55.
+Failed to resolve "sonarqube.zebra.com".
+Failed to resolve "st.zebra.com".
+Failed to resolve "jenkins.npd.avp.st.zebra.com".
+Failed to resolve "opsjenk.npd.avp.st.zebra.com".
+Failed to resolve "old.avp.st.zebra.com".
+Failed to resolve "prd.avp.st.zebra.com".
+Warning: Hostname stage-signup.zebra.com resolves to 3 IPs. Using 104.111.170.148.
+Warning: Hostname stage-www.zebra.com resolves to 3 IPs. Using 104.111.170.148.
+Warning: Hostname swebmetrics.zebra.com resolves to 3 IPs. Using 52.220.116.94.
+Failed to resolve "t01zrm.zebra.com".
+Warning: Hostname techdocs.zebra.com resolves to 4 IPs. Using 185.199.111.153.
+Failed to resolve "test.zebra.com".
+Warning: Hostname test-pic.zebra.com resolves to 12 IPs. Using 13.35.183.60.
+Failed to resolve "test-simulscan1.zebra.com".
+Failed to resolve "test-simulscantemp.zebra.com".
+Failed to resolve "test-www1.zebra.com".
+Failed to resolve "unknown.zebra.com".
+Failed to resolve "www.ups.zebra.com".
+Failed to resolve "vidyo.zebra.com".
+Warning: Hostname viq.zebra.com resolves to 8 IPs. Using 216.239.34.21.
+Warning: Hostname avs.viq.zebra.com resolves to 2 IPs. Using 142.250.180.51.
+Failed to resolve "blue.viq.zebra.com".
+Failed to resolve "dev.d.viq.zebra.com".
+Failed to resolve "eu.viq.zebra.com".
+Failed to resolve "tst.t.eu.viq.zebra.com".
+Failed to resolve "blue.fs.viq.zebra.com".
+Failed to resolve "dev0.d.fs.viq.zebra.com".
+Failed to resolve "gke.d.fs.viq.zebra.com".
+Failed to resolve "dev.d.eu.fs.viq.zebra.com".
+Failed to resolve "tst.t.eu.fs.viq.zebra.com".
+Failed to resolve "europe.fs.viq.zebra.com".
+Failed to resolve "blue.europe.fs.viq.zebra.com".
+Failed to resolve "green.fs.viq.zebra.com".
+Failed to resolve "dem.t.fs.viq.zebra.com".
+Failed to resolve "l3dev.t.fs.viq.zebra.com".
+Failed to resolve "public.t.fs.viq.zebra.com".
+Failed to resolve "pus.t.fs.viq.zebra.com".
+Failed to resolve "rearch.t.fs.viq.zebra.com".
+Failed to resolve "ssdb.t.fs.viq.zebra.com".
+Failed to resolve "tst2.t.fs.viq.zebra.com".
+Failed to resolve "tstes5.t.fs.viq.zebra.com".
+Failed to resolve "tstes7.t.fs.viq.zebra.com".
+Failed to resolve "green.viq.zebra.com".
+Failed to resolve "dev.d.idp.viq.zebra.com".
+Warning: Hostname ovsl.viq.zebra.com resolves to 2 IPs. Using 142.250.185.51.
+Failed to resolve "dev.t.sse.viq.zebra.com".
+Failed to resolve "tst.t.sse.viq.zebra.com".
+Warning: Hostname tst.t.viq.zebra.com resolves to 2 IPs. Using 216.58.210.83.
+Failed to resolve "dev.d.zst.viq.zebra.com".
+Warning: Hostname virtualevents.zebra.com resolves to 2 IPs. Using 52.0.75.230.
+Failed to resolve "vr077.zebra.com".
+Failed to resolve "webmail.zebra.com".
+Failed to resolve "apac.webmail.zebra.com".
+Failed to resolve "emea.webmail.zebra.com".
+Failed to resolve "us.webmail.zebra.com".
+Failed to resolve "nrf-DemoKit.wfc.zebra.com".
+Failed to resolve "nrf-demokit.wfc.zebra.com".
+Failed to resolve "report-prod.wfc.zebra.com".
+Warning: Hostname wireless.zebra.com resolves to 2 IPs. Using 52.0.75.230.
+Failed to resolve "xgrmsp2008r2.zebra.com".
+Warning: Hostname zch200-sonus.zebra.com resolves to 2 IPs. Using 221.4.62.235.
+Warning: Hostname zcz-sonus.zebra.com resolves to 2 IPs. Using 149.23.35.20.
+Warning: Hostname zebralocationsolutions.zebra.com resolves to 3 IPs. Using 184.25.248.6.
+Warning: Hostname zin52-sonus.zebra.com resolves to 2 IPs. Using 149.23.17.15.
+Failed to resolve "www.zip.zebra.com".
+Warning: Hostname zmy32-sonus.zebra.com resolves to 2 IPs. Using 202.169.29.166.
+Failed to resolve "alertmanager.bwm-build-1.zpc-build.zebra.com".
+Failed to resolve "artifactory.bwm-build-1.zpc-build.zebra.com".
+Failed to resolve "prometheus.bwm-build-1.zpc-build.zebra.com".
+Failed to resolve "sonarqube.bwm-build-1.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.bwm-build-1.zpc-build.zebra.com".
+Failed to resolve "alertmanager.bwm-build-2.zpc-build.zebra.com".
+Failed to resolve "artifactory.bwm-build-2.zpc-build.zebra.com".
+Failed to resolve "prometheus.bwm-build-2.zpc-build.zebra.com".
+Failed to resolve "sonarqube.bwm-build-2.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.bwm-build-2.zpc-build.zebra.com".
+Failed to resolve "alertmanager.bwm-build-3.zpc-build.zebra.com".
+Failed to resolve "artifactory.bwm-build-3.zpc-build.zebra.com".
+Failed to resolve "prometheus.bwm-build-3.zpc-build.zebra.com".
+Failed to resolve "sonarqube.bwm-build-3.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.bwm-build-3.zpc-build.zebra.com".
+Failed to resolve "artifactory.bwm-jenkins-1.zpc-build.zebra.com".
+Failed to resolve "jenkins.bwm-jenkins-1.zpc-build.zebra.com".
+Failed to resolve "sonarqube.bwm-jenkins-1.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.bwm-jenkins-1.zpc-build.zebra.com".
+Failed to resolve "artifactory.bwm-wtf-1.zpc-build.zebra.com".
+Failed to resolve "jenkins.bwm-wtf-1.zpc-build.zebra.com".
+Failed to resolve "sonarqube.bwm-wtf-1.zpc-build.zebra.com".
+Failed to resolve "catgifs.zpc-build.zebra.com".
+Failed to resolve "jenkins-jc.zpc-build.zebra.com".
+Failed to resolve "jenkins-jj.zpc-build.zebra.com".
+Failed to resolve "jenkins-sandbox.zpc-build.zebra.com".
+Failed to resolve "jenkins-test.zpc-build.zebra.com".
+Failed to resolve "jenkins.jje-build-prom.zpc-build.zebra.com".
+Failed to resolve "artifactory.jje-cert-test.zpc-build.zebra.com".
+Failed to resolve "sonarqube.jje-cert-test.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.jje-cert-test.zpc-build.zebra.com".
+Failed to resolve "artifactory.jje-ppme-4310-test.zpc-build.zebra.com".
+Failed to resolve "sonarqube.jje-ppme-4310-test.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.jje-ppme-4310-test.zpc-build.zebra.com".
+Failed to resolve "artifactory.jje-ppme3977.zpc-build.zebra.com".
+Failed to resolve "sonarqube.jje-ppme3977.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.jje-ppme3977.zpc-build.zebra.com".
+Failed to resolve "artifactory.jje-ppme4069.zpc-build.zebra.com".
+Failed to resolve "sonarqube.jje-ppme4069.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.jje-ppme4069.zpc-build.zebra.com".
+Failed to resolve "artifactory.jje-ppme4193.zpc-build.zebra.com".
+Failed to resolve "sonarqube.jje-ppme4193.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.jje-ppme4193.zpc-build.zebra.com".
+Failed to resolve "artifactory.jje-ppme4310.zpc-build.zebra.com".
+Failed to resolve "sonarqube.jje-ppme4310.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.jje-ppme4310.zpc-build.zebra.com".
+Failed to resolve "artifactory.jje-ppme4378.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.jje-ppme4378.zpc-build.zebra.com".
+Failed to resolve "artifactory.jje-testing.zpc-build.zebra.com".
+Failed to resolve "sonarqube.jje-testing.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.jje-testing.zpc-build.zebra.com".
+Failed to resolve "artifactory.jje-testing-1.zpc-build.zebra.com".
+Failed to resolve "sonarqube.jje-testing-1.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.jje-testing-1.zpc-build.zebra.com".
+Failed to resolve "artifactory.jje-testing-2.zpc-build.zebra.com".
+Failed to resolve "sonarqube.jje-testing-2.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.jje-testing-2.zpc-build.zebra.com".
+Failed to resolve "artifactory.jje-testing-3.zpc-build.zebra.com".
+Failed to resolve "sonarqube.jje-testing-3.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.jje-testing-3.zpc-build.zebra.com".
+Failed to resolve "artifactory.jje-velero-test.zpc-build.zebra.com".
+Failed to resolve "jenkins.jje-velero-test.zpc-build.zebra.com".
+Failed to resolve "sonarqube.jje-velero-test.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef-4217.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef-4217.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef-4217.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef-4217a.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef-4217a.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef-4217a.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef-4217b.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef-4217b.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef-4217b.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef-4217c.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef-4217c.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef-4217c.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef-4217d.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef-4217d.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef-4217d.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef-4217e.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef-4217e.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef-4217e.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef-4230-4258.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef-4230-4258.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef-4230-4258.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef-4230-4258v2.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef-4230-4258v2.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef-4230-4258v2.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef-4380.zpc-build.zebra.com".
+Failed to resolve "jenkins.josef-4380.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef-4380.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef-4380k8s.zpc-build.zebra.com".
+Failed to resolve "jenkins.josef-4380k8s.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef-4380k8s.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef-4395.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef-4395.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef-4395.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef-4395-b.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef-4395-b.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef-4395-b.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef-4483.zpc-build.zebra.com".
+Failed to resolve "jenkins.josef-4483.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef-4483.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef-jen-k8s.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef-jen-k8s.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef-smtp2.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef-smtp2.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef-smtp2.zpc-build.zebra.com".
+Failed to resolve "alertmanager.josef10-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef10-build.zpc-build.zebra.com".
+Failed to resolve "prometheus.josef10-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef10-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef10-build.zpc-build.zebra.com".
+Failed to resolve "alertmanager.josef11-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef11-build.zpc-build.zebra.com".
+Failed to resolve "prometheus.josef11-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef11-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef11-build.zpc-build.zebra.com".
+Failed to resolve "alertmanager.josef12-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef12-build.zpc-build.zebra.com".
+Failed to resolve "prometheus.josef12-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef12-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef12-build.zpc-build.zebra.com".
+Failed to resolve "alertmanager.josef13-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef13-build.zpc-build.zebra.com".
+Failed to resolve "prometheus.josef13-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef13-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef13-build.zpc-build.zebra.com".
+Failed to resolve "alertmanager.josef14-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef14-build.zpc-build.zebra.com".
+Failed to resolve "blackbox.josef14-build.zpc-build.zebra.com".
+Failed to resolve "prometheus.josef14-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef14-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef14-build.zpc-build.zebra.com".
+Failed to resolve "alertmanager.josef15-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef15-build.zpc-build.zebra.com".
+Failed to resolve "blackbox.josef15-build.zpc-build.zebra.com".
+Failed to resolve "prometheus.josef15-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef15-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef15-build.zpc-build.zebra.com".
+Failed to resolve "alertmanager.josef16-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef16-build.zpc-build.zebra.com".
+Failed to resolve "prometheus.josef16-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef16-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef16-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef17-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef17-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef17-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef18-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef18-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef18-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef19-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef19-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef19-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef20-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef20-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef20-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef21-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef21-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef21-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef22-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef23-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef23-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef23-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef24-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef24-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef24-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef25-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef25-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef25-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef26-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef26-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef26-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef4-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef4-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef4-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef5-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef5-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef6-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef6-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef6-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef7-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef7-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef7-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef8-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef8-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef8-build.zpc-build.zebra.com".
+Failed to resolve "alertmanager.josef9-build.zpc-build.zebra.com".
+Failed to resolve "artifactory.josef9-build.zpc-build.zebra.com".
+Failed to resolve "prometheus.josef9-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube.josef9-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.josef9-build.zpc-build.zebra.com".
+Failed to resolve "sonarqube.zpc-build.zebra.com".
+Failed to resolve "sonarqube-sb.zpc-build.zebra.com".
+Failed to resolve "vernemq.analyticscollector-01da735-3.zpc-sandbox.zebra.com".
+Failed to resolve "avs.deviceinterface-080af3f-1.zpc-sandbox.zebra.com".
+Failed to resolve "avs.devopsconsole-a482b93-1.zpc-sandbox.zebra.com".
+Failed to resolve "avs.devopsconsole-f8ade62-1.zpc-sandbox.zebra.com".
+Failed to resolve "jungle.devopsconsole-f8ade62-1.zpc-sandbox.zebra.com".
+Failed to resolve "dsjf-lb-test-https.zpc-sandbox.zebra.com".
+Failed to resolve "dsjf-private-test.zpc-sandbox.zebra.com".
+Failed to resolve "api.gatekeeper-49c7b00-1.zpc-sandbox.zebra.com".
+Failed to resolve "load-test.gatekeeper-c9c5e52-1.zpc-sandbox.zebra.com".
+Failed to resolve "monitoring.pm-ae4893975-11.zpc-sandbox.zebra.com".
+Failed to resolve "collect.ppme-3000.zpc-sandbox.zebra.com".
+Failed to resolve "monitoring.ppme-3666.zpc-sandbox.zebra.com".
+Failed to resolve "vernemq.ppme-3669.zpc-sandbox.zebra.com".
+Failed to resolve "zsbp.sohoenvoy1.zpc-sandbox.zebra.com".
+Failed to resolve "sonarqube.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.test-build-id-123.zpc-sandbox.zebra.com".
+Failed to resolve "vernemq.zpc-infrastructure-40ef4fd-390.zpc-sandbox.zebra.com".
+Failed to resolve "vernemq.zpc-infrastructure-57a6875-749.zpc-sandbox.zebra.com".
+Failed to resolve "vernemq.zpc-infrastructure-feb3ee9-3.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-1d42ffa4-73.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-21ce485e-64.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-2c0bc171-89.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-34853df8-128.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-36da458d-90.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-36da458d-91.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-38cf1213-134.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-3df1d90c-72.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-48d6182d-115.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui-4cece473-140.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-506d9f3b-80.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-57dbc06e-76.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-5df8bc7d-95.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-6680de6f-65.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-6680de6f-66.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-795bd427-130.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-804d3a65-69.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui-8053dc1e-142.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-861b0ff4-116.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-894481a0-77.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-92275129-67.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-abcd-123.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-ac18188f-81.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-adaf9ecc-132.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-af49da27-75.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-b76f4b9d-70.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-bcfabe59-114.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-build-id-1.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-build-id-2.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui-c1c392d0-143.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-caa51420-123.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-cbde2475-93.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-d12c86f2-94.zpc-sandbox.zebra.com".
+Failed to resolve "zsbpwebui.zsbpwebui-d2460adf-74.zpc-sandbox.zebra.com".
+Failed to resolve "g.zpc-stage.zebra.com".
+Failed to resolve "apispinnaker.zpcdeploy.zebra.com".
+Warning: Hostname spinnaker.zpcdeploy.zebra.com resolves to 2 IPs. Using 3.216.87.90.
+Failed to resolve "www.zprinthubz-dev.zebra.com".
+Failed to resolve "nlep-api.zprinthubz-dev.zebra.com".
+Failed to resolve "www.zprinthubz-sandbox.zebra.com".
+Failed to resolve "nlep-bwm-1.zprinthubz-sandbox.zebra.com".
+Failed to resolve "nlep-bwm-2.zprinthubz-sandbox.zebra.com".
+Failed to resolve "nlep-bwm-3.zprinthubz-sandbox.zebra.com".
+Failed to resolve "nlep-dsjf-final-cluster.zprinthubz-sandbox.zebra.com".
+Failed to resolve "nlep-dsjf-jenkins.zprinthubz-sandbox.zebra.com".
+Failed to resolve "nlep-dsjf-jenkins-again.zprinthubz-sandbox.zebra.com".
+Failed to resolve "nlep-dsjf-test.zprinthubz-sandbox.zebra.com".
+Failed to resolve "nlep-dsjf-test-2.zprinthubz-sandbox.zebra.com".
+Failed to resolve "nlep-dsjf-test-3.zprinthubz-sandbox.zebra.com".
+Failed to resolve "nlep-initial-pi-035936-bcbc44f4.zprinthubz-sandbox.zebra.com".
+Failed to resolve "nlep-initial-pi-0da406-3249d8d3.zprinthubz-sandbox.zebra.com".
+Failed to resolve "nlep-initial-pi-1ce2f8-5eb107dd.zprinthubz-sandbox.zebra.com".
+Failed to resolve "nlep-initial-pi-d2cfd2-54712531.zprinthubz-sandbox.zebra.com".
+Failed to resolve "nlep-jberg-lda-test.zprinthubz-sandbox.zebra.com".
+Failed to resolve "nlep-jberg-lda-test2.zprinthubz-sandbox.zebra.com".
+Failed to resolve "nlep-jeff-test.zprinthubz-sandbox.zebra.com".
+Failed to resolve "nlep-jrh-new.zprinthubz-sandbox.zebra.com".
+Failed to resolve "nlep-jrh-new2.zprinthubz-sandbox.zebra.com".
+Failed to resolve "nlep-jrh-orig.zprinthubz-sandbox.zebra.com".
+Failed to resolve "nlep-nl-bwm-1.zprinthubz-sandbox.zebra.com".
+Failed to resolve "provisioning-api-dsjf-test.zprinthubz-sandbox.zebra.com".
+Failed to resolve "provisioning-api-dsjf-test-2.zprinthubz-sandbox.zebra.com".
+Failed to resolve "provisioning-api-initial-pi-3f68ac.zprinthubz-sandbox.zebra.com".
+Failed to resolve "provisioning-api-initial-pi-4e70c0.zprinthubz-sandbox.zebra.com".
+Failed to resolve "provisioning-api-initial-pi-b9d7bc.zprinthubz-sandbox.zebra.com".
+Failed to resolve "ui.zprinthubz-sandbox.zebra.com".
+Failed to resolve "www.zprinthubz-stage.zebra.com".
+Failed to resolve "nlep-api.zprinthubz-stage.zebra.com".
+Warning: Hostname zsg42-sonus.zebra.com resolves to 2 IPs. Using 149.23.11.13.
+Failed to resolve "zipzebra.com".
+Initiating Parallel DNS resolution of 635 hosts. at 21:39
+Stats: 0:05:38 elapsed; 0 hosts completed (0 up), 0 undergoing Host Discovery
+Parallel DNS resolution of 635 hosts. Timing: About 5.04% done; ETC: 21:51 (0:11:37 remaining)
+Stats: 0:08:06 elapsed; 0 hosts completed (0 up), 0 undergoing Host Discovery
+Parallel DNS resolution of 635 hosts. Timing: About 31.02% done; ETC: 21:49 (0:06:49 remaining)
+Completed Parallel DNS resolution of 635 hosts. at 21:50, 660.94s elapsed
+Initiating Connect Scan at 21:50
+Scanning 64 hosts [1000 ports/host]
+Discovered open port 110/tcp on 34.120.125.194
+Discovered open port 993/tcp on 34.120.125.194
+Discovered open port 5900/tcp on 34.120.125.194
+Discovered open port 995/tcp on 34.120.125.194
+Discovered open port 3389/tcp on 34.120.125.194
+Discovered open port 80/tcp on 34.120.125.194
+Discovered open port 80/tcp on 52.98.61.40
+Discovered open port 443/tcp on 34.120.125.194
+Discovered open port 143/tcp on 34.120.125.194
+Discovered open port 8080/tcp on 34.120.125.194
+Discovered open port 443/tcp on 216.239.32.21
+Discovered open port 443/tcp on 216.239.38.21
+Discovered open port 443/tcp on 13.35.183.38
+Discovered open port 80/tcp on 216.239.38.21
+Discovered open port 443/tcp on 142.250.185.51
+Discovered open port 80/tcp on 13.35.183.38
+Discovered open port 80/tcp on 216.239.32.21
+Discovered open port 587/tcp on 34.120.125.194
+Discovered open port 80/tcp on 142.250.185.51
+Discovered open port 443/tcp on 172.217.169.243
+Discovered open port 443/tcp on 172.217.169.243
+Discovered open port 443/tcp on 216.58.210.83
+Discovered open port 8089/tcp on 34.120.125.194
+Connect Scan Timing: About 2.56% done; ETC: 22:10 (0:19:39 remaining)
+Connect Scan Timing: About 5.16% done; ETC: 22:13 (0:21:27 remaining)
+Discovered open port 5432/tcp on 34.120.125.194
+Connect Scan Timing: About 7.39% done; ETC: 22:15 (0:22:45 remaining)
+Increasing send delay for 34.120.125.194 from 0 to 5 due to 11 out of 33 dropped probes since last increase.
+Connect Scan Timing: About 12.14% done; ETC: 22:14 (0:20:44 remaining)
+Increasing send delay for 216.239.38.21 from 0 to 5 due to 11 out of 21 dropped probes since last increase.
+Connect Scan Timing: About 15.33% done; ETC: 22:13 (0:18:52 remaining)
+Increasing send delay for 142.250.185.51 from 0 to 5 due to 11 out of 23 dropped probes since last increase.
+Increasing send delay for 172.217.169.243 from 0 to 5 due to 11 out of 24 dropped probes since last increase.
+Increasing send delay for 172.217.169.243 from 0 to 5 due to 11 out of 22 dropped probes since last increase.
+Increasing send delay for 52.98.61.40 from 0 to 5 due to 11 out of 28 dropped probes since last increase.
+Increasing send delay for 13.35.183.38 from 0 to 5 due to 11 out of 26 dropped probes since last increase.
+Connect Scan Timing: About 18.28% done; ETC: 22:12 (0:17:44 remaining)
+Increasing send delay for 216.58.210.83 from 0 to 5 due to 11 out of 31 dropped probes since last increase.
+Increasing send delay for 34.120.125.194 from 5 to 10 due to 11 out of 17 dropped probes since last increase.
+Discovered open port 8086/tcp on 34.120.125.194
+Discovered open port 89/tcp on 34.120.125.194
+Discovered open port 1443/tcp on 34.120.125.194
+Connect Scan Timing: About 21.86% done; ETC: 22:11 (0:16:09 remaining)
+Increasing send delay for 216.239.32.21 from 0 to 5 due to 11 out of 32 dropped probes since last increase.
+Connect Scan Timing: About 25.13% done; ETC: 22:10 (0:14:57 remaining)
+Increasing send delay for 216.239.38.21 from 5 to 10 due to 11 out of 19 dropped probes since last increase.
+Increasing send delay for 172.217.169.243 from 5 to 10 due to 11 out of 16 dropped probes since last increase.
+Discovered open port 9200/tcp on 34.120.125.194
+Connect Scan Timing: About 28.64% done; ETC: 22:10 (0:13:45 remaining)
+Increasing send delay for 172.217.169.243 from 5 to 10 due to 11 out of 24 dropped probes since last increase.
+Increasing send delay for 34.120.125.194 from 10 to 20 due to 11 out of 28 dropped probes since last increase.
+Connect Scan Timing: About 32.25% done; ETC: 22:09 (0:12:38 remaining)
+Increasing send delay for 216.58.210.83 from 5 to 10 due to 11 out of 21 dropped probes since last increase.
+Increasing send delay for 52.98.61.40 from 5 to 10 due to 11 out of 27 dropped probes since last increase.
+Discovered open port 30000/tcp on 34.120.125.194
+Discovered open port 8088/tcp on 34.120.125.194
+Increasing send delay for 13.35.183.38 from 5 to 10 due to 11 out of 34 dropped probes since last increase.
+Connect Scan Timing: About 36.37% done; ETC: 22:08 (0:11:35 remaining)
+Increasing send delay for 216.239.32.21 from 5 to 10 due to 11 out of 25 dropped probes since last increase.
+Discovered open port 1084/tcp on 34.120.125.194
+Increasing send delay for 34.120.125.194 from 20 to 40 due to 11 out of 20 dropped probes since last increase.
+Discovered open port 83/tcp on 34.120.125.194
+Increasing send delay for 172.217.169.243 from 10 to 20 due to 11 out of 21 dropped probes since last increase.
+Connect Scan Timing: About 42.01% done; ETC: 22:08 (0:10:31 remaining)
+Increasing send delay for 216.239.38.21 from 10 to 20 due to 11 out of 33 dropped probes since last increase.
+Increasing send delay for 142.250.185.51 from 5 to 10 due to 15 out of 49 dropped probes since last increase.
+Discovered open port 5901/tcp on 34.120.125.194
+Increasing send delay for 172.217.169.243 from 10 to 20 due to 11 out of 26 dropped probes since last increase.
+Connect Scan Timing: About 47.86% done; ETC: 22:08 (0:09:30 remaining)
+Increasing send delay for 13.35.183.38 from 10 to 20 due to 11 out of 21 dropped probes since last increase.
+Increasing send delay for 216.58.210.83 from 10 to 20 due to 11 out of 26 dropped probes since last increase.
+Discovered open port 5999/tcp on 34.120.125.194
+Connect Scan Timing: About 52.43% done; ETC: 22:08 (0:08:24 remaining)
+Increasing send delay for 172.217.169.243 from 20 to 40 due to 11 out of 17 dropped probes since last increase.
+Increasing send delay for 34.120.125.194 from 40 to 80 due to 11 out of 29 dropped probes since last increase.
+Increasing send delay for 216.239.32.21 from 10 to 20 due to 11 out of 28 dropped probes since last increase.
+Increasing send delay for 52.98.61.40 from 10 to 20 due to 12 out of 38 dropped probes since last increase.
+Increasing send delay for 142.250.185.51 from 10 to 20 due to 11 out of 18 dropped probes since last increase.
+Connect Scan Timing: About 57.35% done; ETC: 22:07 (0:07:18 remaining)
+Discovered open port 43/tcp on 34.120.125.194
+Increasing send delay for 216.239.38.21 from 20 to 40 due to 11 out of 30 dropped probes since last increase.
+Connect Scan Timing: About 61.68% done; ETC: 22:07 (0:06:26 remaining)
+Increasing send delay for 34.120.125.194 from 80 to 160 due to 11 out of 21 dropped probes since last increase.
+Discovered open port 85/tcp on 34.120.125.194
+Increasing send delay for 216.58.210.83 from 20 to 40 due to 11 out of 23 dropped probes since last increase.
+Increasing send delay for 172.217.169.243 from 40 to 80 due to 11 out of 24 dropped probes since last increase.
+Increasing send delay for 13.35.183.38 from 20 to 40 due to 11 out of 32 dropped probes since last increase.
+Connect Scan Timing: About 66.17% done; ETC: 22:07 (0:05:35 remaining)
+Increasing send delay for 172.217.169.243 from 20 to 40 due to 11 out of 35 dropped probes since last increase.
+Increasing send delay for 52.98.61.40 from 20 to 40 due to 11 out of 21 dropped probes since last increase.
+Increasing send delay for 216.239.32.21 from 20 to 40 due to 11 out of 29 dropped probes since last increase.
+Discovered open port 20000/tcp on 34.120.125.194
+Increasing send delay for 142.250.185.51 from 20 to 40 due to 11 out of 25 dropped probes since last increase.
+Connect Scan Timing: About 71.13% done; ETC: 22:07 (0:04:43 remaining)
+Increasing send delay for 216.239.38.21 from 40 to 80 due to 11 out of 20 dropped probes since last increase.
+Connect Scan Timing: About 76.10% done; ETC: 22:06 (0:03:48 remaining)
+Increasing send delay for 13.35.183.38 from 40 to 80 due to 11 out of 20 dropped probes since last increase.
+Discovered open port 8099/tcp on 34.120.125.194
+Completed Connect Scan against 35.226.117.45 in 751.42s (63 hosts left)
+Connect Scan Timing: About 80.89% done; ETC: 22:06 (0:02:59 remaining)
+Increasing send delay for 172.217.169.243 from 80 to 160 due to 11 out of 22 dropped probes since last increase.
+Completed Connect Scan against 23.92.229.194 in 759.12s (62 hosts left)
+Increasing send delay for 52.98.61.40 from 40 to 80 due to 11 out of 25 dropped probes since last increase.
+Completed Connect Scan against 192.206.230.245 in 778.83s (61 hosts left)
+Completed Connect Scan against 216.239.34.21 in 783.50s (60 hosts left)
+Increasing send delay for 172.217.169.243 from 40 to 80 due to 11 out of 29 dropped probes since last increase.
+Increasing send delay for 34.120.125.194 from 160 to 320 due to 11 out of 35 dropped probes since last increase.
+Completed Connect Scan against 192.206.230.59 in 792.23s (59 hosts left)
+Connect Scan Timing: About 86.13% done; ETC: 22:06 (0:02:08 remaining)
+Completed Connect Scan against 192.206.230.91 in 796.96s (58 hosts left)
+Increasing send delay for 142.250.185.51 from 40 to 80 due to 11 out of 31 dropped probes since last increase.
+Completed Connect Scan against 192.206.230.194 in 823.75s (57 hosts left)
+Completed Connect Scan against 34.72.119.37 in 825.46s (56 hosts left)
+Completed Connect Scan against 207.200.34.46 in 827.10s (55 hosts left)
+Completed Connect Scan against 192.206.230.59 in 828.00s (54 hosts left)
+Connect Scan Timing: About 91.47% done; ETC: 22:05 (0:01:17 remaining)
+Completed Connect Scan against 192.206.230.73 in 835.07s (53 hosts left)
+Completed Connect Scan against 186.64.17.100 in 835.17s (52 hosts left)
+Completed Connect Scan against 204.93.89.199 in 837.17s (51 hosts left)
+Completed Connect Scan against 192.206.230.246 in 838.82s (50 hosts left)
+Increasing send delay for 216.239.38.21 from 80 to 160 due to 11 out of 28 dropped probes since last increase.
+Completed Connect Scan against 52.173.19.194 in 848.10s (49 hosts left)
+Completed Connect Scan against 192.206.230.248 in 849.59s (48 hosts left)
+Increasing send delay for 216.58.210.83 from 40 to 80 due to 16 out of 53 dropped probes since last increase.
+Completed Connect Scan against 142.0.173.134 in 852.34s (47 hosts left)
+Completed Connect Scan against 192.206.230.211 in 853.44s (46 hosts left)
+Completed Connect Scan against 192.206.230.143 in 855.46s (45 hosts left)
+Completed Connect Scan against 35.190.154.173 in 856.02s (44 hosts left)
+Completed Connect Scan against 192.206.230.127 in 856.41s (43 hosts left)
+Completed Connect Scan against 192.206.230.140 in 856.91s (42 hosts left)
+Completed Connect Scan against 35.190.154.173 in 857.72s (41 hosts left)
+Completed Connect Scan against 104.198.59.61 in 857.91s (40 hosts left)
+Completed Connect Scan against 192.206.230.247 in 858.42s (39 hosts left)
+Completed Connect Scan against 52.173.19.194 in 858.51s (38 hosts left)
+Completed Connect Scan against 192.206.230.195 in 858.62s (37 hosts left)
+Completed Connect Scan against 192.206.230.77 in 858.70s (36 hosts left)
+Completed Connect Scan against 192.206.230.140 in 858.82s (35 hosts left)
+Completed Connect Scan against 186.64.0.252 in 859.22s (34 hosts left)
+Completed Connect Scan against 204.93.89.182 in 859.31s (33 hosts left)
+Completed Connect Scan against 192.206.230.190 in 859.91s (32 hosts left)
+Increasing send delay for 52.98.61.40 from 80 to 160 due to 11 out of 24 dropped probes since last increase.
+Completed Connect Scan against 184.25.248.6 in 860.21s (31 hosts left)
+Completed Connect Scan against 54.215.180.182 in 860.65s (30 hosts left)
+Completed Connect Scan against 52.24.72.204 in 863.67s (29 hosts left)
+Connect Scan Timing: About 96.51% done; ETC: 22:05 (0:00:31 remaining)
+Completed Connect Scan against 192.206.230.119 in 865.26s (28 hosts left)
+Completed Connect Scan against 142.0.173.134 in 865.35s (27 hosts left)
+Completed Connect Scan against 192.206.230.142 in 865.46s (26 hosts left)
+Completed Connect Scan against 192.206.230.126 in 865.65s (25 hosts left)
+Completed Connect Scan against 52.173.19.194 in 865.66s (24 hosts left)
+Increasing send delay for 13.35.183.38 from 80 to 160 due to 11 out of 30 dropped probes since last increase.
+Completed Connect Scan against 192.206.230.127 in 865.95s (23 hosts left)
+Completed Connect Scan against 69.16.228.167 in 865.95s (22 hosts left)
+Completed Connect Scan against 192.206.230.239 in 865.95s (21 hosts left)
+Completed Connect Scan against 72.18.152.179 in 866.15s (20 hosts left)
+Completed Connect Scan against 192.206.230.110 in 866.56s (19 hosts left)
+Completed Connect Scan against 192.206.230.193 in 866.59s (18 hosts left)
+Completed Connect Scan against 23.200.232.240 in 866.96s (17 hosts left)
+Completed Connect Scan against 69.16.228.167 in 866.96s (16 hosts left)
+Completed Connect Scan against 192.206.230.127 in 866.98s (15 hosts left)
+Completed Connect Scan against 192.206.230.192 in 866.98s (14 hosts left)
+Completed Connect Scan against 157.235.243.220 in 867.10s (13 hosts left)
+Completed Connect Scan against 104.111.170.148 in 867.19s (12 hosts left)
+Completed Connect Scan against 52.173.19.194 in 867.29s (11 hosts left)
+Completed Connect Scan against 192.206.230.208 in 867.29s (10 hosts left)
+Completed Connect Scan against 192.206.230.238 in 867.30s (9 hosts left)
+Increasing send delay for 172.217.169.243 from 80 to 160 due to 11 out of 23 dropped probes since last increase.
+Increasing send delay for 142.250.185.51 from 80 to 160 due to 11 out of 24 dropped probes since last increase.
+Discovered open port 84/tcp on 34.120.125.194
+Completed Connect Scan against 216.239.32.21 in 885.32s (8 hosts left)
+Completed Connect Scan against 216.58.210.83 in 896.63s (7 hosts left)
+Completed Connect Scan against 142.250.185.51 in 910.91s (6 hosts left)
+Completed Connect Scan against 13.35.183.38 in 916.84s (5 hosts left)
+Completed Connect Scan against 52.98.61.40 in 921.32s (4 hosts left)
+Completed Connect Scan against 172.217.169.243 in 925.97s (3 hosts left)
+Completed Connect Scan against 216.239.38.21 in 929.98s (2 hosts left)
+Completed Connect Scan against 172.217.169.243 in 957.36s (1 host left)
+Discovered open port 1935/tcp on 34.120.125.194
+Discovered open port 8090/tcp on 34.120.125.194
+Discovered open port 8081/tcp on 34.120.125.194
+Completed Connect Scan at 22:11, 1232.67s elapsed (64000 total ports)
+Initiating Service scan at 22:11
+Scanning 42 services on 64 hosts
+Warning: Hit PCRE_ERROR_MATCHLIMIT when probing for service http with the regex '^HTTP/1\.0 404 Not Found\r\n(?:[^<]+|<(?!/head>))*?<style>\nbody \{ background-color: #fcfcfc; color: #333333; margin: 0; padding:0; \}\nh1 \{ font-size: 1\.5em; font-weight: normal; background-color: #9999cc; min-height:2em; line-height:2em; border-bottom: 1px inset black; margin: 0; \}\nh1, p \{ padding-left: 10px; \}\ncode\.url \{ background-color: #eeeeee; font-family:monospace; padding:0 2px;\}\n</style>'
+Warning: Hit PCRE_ERROR_MATCHLIMIT when probing for service http with the regex '^HTTP/1\.0 404 Not Found\r\n(?:[^<]+|<(?!/head>))*?<style>\nbody \{ background-color: #ffffff; color: #000000; \}\nh1 \{ font-family: sans-serif; font-size: 150%; background-color: #9999cc; font-weight: bold; color: #000000; margin-top: 0;\}\n</style>'
+Completed Service scan at 22:12, 67.25s elapsed (42 services on 64 hosts)
+NSE: Script scanning 64 hosts.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 22:12
+Completed NSE at 22:12, 4.50s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 22:12
+Completed NSE at 22:12, 1.33s elapsed
+Nmap scan report for www.zebra.com (104.111.170.148)
+Host is up, received user-set.
+Other addresses for www.zebra.com (not scanned): 2600:1417:7a:28b::4b0f 2600:1417:7a:295::4b0f
+rDNS record for 104.111.170.148: a104-111-170-148.deploy.static.akamaitechnologies.com
+All 1000 scanned ports on www.zebra.com (104.111.170.148) are filtered because of 1000 no-responses
+
+Nmap scan report for 105slplus.zebra.com (192.206.230.127)
+Host is up, received user-set (0.018s latency).
+rDNS record for 192.206.230.127: creative.zebra.com
+All 1000 scanned ports on 105slplus.zebra.com (192.206.230.127) are filtered because of 999 no-responses and 1 host-unreach
+
+Nmap scan report for 123scan.zebra.com (192.206.230.140)
+Host is up, received user-set.
+rDNS record for 192.206.230.140: temp-123scan.zebra.com
+All 1000 scanned ports on 123scan.zebra.com (192.206.230.140) are filtered because of 1000 no-responses
+
+Nmap scan report for 77st01.zebra.com (192.206.230.142)
+Host is up, received user-set.
+All 1000 scanned ports on 77st01.zebra.com (192.206.230.142) are filtered because of 1000 no-responses
+
+Nmap scan report for IL151-sbc.zebra.com (157.235.243.220)
+Host is up, received user-set.
+All 1000 scanned ports on IL151-sbc.zebra.com (157.235.243.220) are filtered because of 1000 no-responses
+
+Nmap scan report for ZMX63-SONUS.zebra.com (186.64.0.252)
+Host is up, received user-set.
+All 1000 scanned ports on ZMX63-SONUS.zebra.com (186.64.0.252) are filtered because of 1000 no-responses
+
+Nmap scan report for ZMX64-SONUS.zebra.com (186.64.17.100)
+Host is up, received user-set.
+All 1000 scanned ports on ZMX64-SONUS.zebra.com (186.64.17.100) are filtered because of 1000 no-responses
+
+Nmap scan report for acs.zebra.com (192.206.230.59)
+Host is up, received user-set.
+All 1000 scanned ports on acs.zebra.com (192.206.230.59) are filtered because of 1000 no-responses
+
+Nmap scan report for admin-pingone.zebra.com (192.206.230.211)
+Host is up, received user-set.
+All 1000 scanned ports on admin-pingone.zebra.com (192.206.230.211) are filtered because of 1000 no-responses
+
+Nmap scan report for ag-cdn.zebra.com (13.35.183.38)
+Host is up, received user-set (0.040s latency).
+Other addresses for ag-cdn.zebra.com (not scanned): 13.35.183.50 13.35.183.16 13.35.183.12
+Scanned at 2021-05-12 21:50:45 PKT for 1306s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT    STATE SERVICE  REASON  VERSION
+80/tcp  open  http     syn-ack Amazon CloudFront httpd
+| http-server-header:
+|   AmazonS3
+|_  CloudFront
+443/tcp open  ssl/http syn-ack Amazon CloudFront httpd
+| http-server-header:
+|   AmazonS3
+|_  CloudFront
+
+Nmap scan report for agl.zebra.com (192.206.230.239)
+Host is up, received user-set.
+All 1000 scanned ports on agl.zebra.com (192.206.230.239) are filtered because of 1000 no-responses
+
+Nmap scan report for analytics.zebra.com (104.198.59.61)
+Host is up, received user-set.
+All 1000 scanned ports on analytics.zebra.com (104.198.59.61) are filtered because of 1000 no-responses
+
+Nmap scan report for test.analytics.zebra.com (34.72.119.37)
+Host is up, received user-set.
+All 1000 scanned ports on test.analytics.zebra.com (34.72.119.37) are filtered because of 1000 no-responses
+
+Nmap scan report for api.zebra.com (35.190.154.173)
+Host is up, received user-set.
+All 1000 scanned ports on api.zebra.com (35.190.154.173) are filtered because of 1000 no-responses
+
+Nmap scan report for apis.zebra.com (35.190.154.173)
+Host is up, received user-set.
+All 1000 scanned ports on apis.zebra.com (35.190.154.173) are filtered because of 1000 no-responses
+
+Nmap scan report for app-zebralocationsolutions.zebra.com (184.25.248.6)
+Host is up, received user-set.
+Other addresses for app-zebralocationsolutions.zebra.com (not scanned): 2a02:26f0:2b00:996::13 2a02:26f0:2b00:99d::13
+All 1000 scanned ports on app-zebralocationsolutions.zebra.com (184.25.248.6) are filtered because of 1000 no-responses
+
+Nmap scan report for appgallery.zebra.com (54.215.180.182)
+Host is up, received user-set.
+All 1000 scanned ports on appgallery.zebra.com (54.215.180.182) are filtered because of 1000 no-responses
+
+Nmap scan report for apps-developer.zebra.com (204.93.89.182)
+Host is up, received user-set.
+All 1000 scanned ports on apps-developer.zebra.com (204.93.89.182) are filtered because of 1000 no-responses
+
+Nmap scan report for apps-developer-uat.zebra.com (204.93.89.199)
+Host is up, received user-set.
+All 1000 scanned ports on apps-developer-uat.zebra.com (204.93.89.199) are filtered because of 1000 no-responses
+
+Nmap scan report for artifactory.zebra.com (35.226.117.45)
+Host is up, received user-set.
+All 1000 scanned ports on artifactory.zebra.com (35.226.117.45) are filtered because of 1000 no-responses
+
+Nmap scan report for atgsupportcentral.zebra.com (192.206.230.140)
+Host is up, received user-set (0.014s latency).
+All 1000 scanned ports on atgsupportcentral.zebra.com (192.206.230.140) are filtered because of 999 no-responses and 1 host-unreach
+
+Nmap scan report for autodiscover.zebra.com (52.98.61.40)
+Host is up, received user-set (0.043s latency).
+Other addresses for autodiscover.zebra.com (not scanned): 52.98.95.216 52.98.32.8 2603:1046:c0c:815::8 2603:1046:c0c:2::8 2603:1046:c0c:8::8
+Scanned at 2021-05-12 21:50:45 PKT for 1305s
+Not shown: 993 filtered ports
+Reason: 993 no-responses
+PORT    STATE  SERVICE    REASON       VERSION
+80/tcp  open   http       syn-ack      Microsoft IIS httpd 10.0
+|_http-server-header: Microsoft-IIS/10.0
+110/tcp closed pop3       conn-refused
+143/tcp closed imap       conn-refused
+443/tcp closed https      conn-refused
+587/tcp closed submission conn-refused
+993/tcp closed imaps      conn-refused
+995/tcp closed pop3s      conn-refused
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for avp.zebra.com (216.239.38.21)
+Host is up, received user-set (0.041s latency).
+Other addresses for avp.zebra.com (not scanned): 216.239.36.21 216.239.34.21 216.239.32.21 2001:4860:4802:32::15 2001:4860:4802:34::15 2001:4860:4802:36::15 2001:4860:4802:38::15
+Scanned at 2021-05-12 21:50:45 PKT for 1306s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT    STATE SERVICE  REASON  VERSION
+80/tcp  open  http     syn-ack Google httpd
+| http-server-header:
+|   Google Frontend
+|_  ghs
+443/tcp open  ssl/http syn-ack Google httpd
+| http-server-header:
+|   Google Frontend
+|_  ghs
+
+Nmap scan report for avs.avp.zebra.com (172.217.169.243)
+Host is up, received user-set (0.038s latency).
+Other addresses for avs.avp.zebra.com (not scanned): 2a00:1450:4018:801::2013
+Scanned at 2021-05-12 21:50:46 PKT for 1244s
+Not shown: 999 filtered ports
+Reason: 999 no-responses
+PORT    STATE SERVICE  REASON  VERSION
+443/tcp open  ssl/http syn-ack Google httpd
+
+Nmap scan report for tst.t.avs.avp.zebra.com (216.58.210.83)
+Host is up, received user-set (0.042s latency).
+Other addresses for tst.t.avs.avp.zebra.com (not scanned): 2a00:1450:4018:801::2013
+Scanned at 2021-05-12 21:50:46 PKT for 1305s
+Not shown: 999 filtered ports
+Reason: 999 no-responses
+PORT    STATE SERVICE  REASON  VERSION
+443/tcp open  ssl/http syn-ack Google httpd
+| http-server-header:
+|   Google Frontend
+|_  ghs
+
+Nmap scan report for ovsl.avp.zebra.com (172.217.169.243)
+Host is up, received user-set (0.038s latency).
+Other addresses for ovsl.avp.zebra.com (not scanned): 2a00:1450:4018:801::2013
+Scanned at 2021-05-12 21:50:46 PKT for 1305s
+Not shown: 999 filtered ports
+Reason: 999 no-responses
+PORT    STATE SERVICE  REASON  VERSION
+443/tcp open  ssl/http syn-ack Google httpd
+| http-server-header:
+|   Google Frontend
+|_  ghs
+| http-server-header:
+|   Google Frontend
+|_  ghs
+
+Nmap scan report for ovsrefresh.avp.zebra.com (142.250.185.51)
+Host is up, received user-set (0.040s latency).
+Other addresses for ovsrefresh.avp.zebra.com (not scanned): 2a00:1450:4018:801::2013
+Scanned at 2021-05-12 21:50:45 PKT for 1306s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT    STATE SERVICE  REASON  VERSION
+80/tcp  open  http     syn-ack Google httpd
+| http-server-header:
+|   Google Frontend
+|_  ghs
+443/tcp open  ssl/http syn-ack Google httpd
+| http-server-header:
+|   Google Frontend
+|_  ghs
+
+Nmap scan report for avp-avs.zebra.com (216.239.34.21)
+Host is up, received user-set (0.0060s latency).
+Other addresses for avp-avs.zebra.com (not scanned): 216.239.38.21 216.239.32.21 216.239.36.21 2001:4860:4802:38::15 2001:4860:4802:36::15 2001:4860:4802:32::15 2001:4860:4802:34::15
+All 1000 scanned ports on avp-avs.zebra.com (216.239.34.21) are filtered because of 992 no-responses and 8 host-unreaches
+
+Nmap scan report for avp-ovs.zebra.com (216.239.32.21)
+Host is up, received user-set (0.041s latency).
+Other addresses for avp-ovs.zebra.com (not scanned): 216.239.34.21 216.239.36.21 216.239.38.21 2001:4860:4802:34::15 2001:4860:4802:38::15 2001:4860:4802:32::15 2001:4860:4802:36::15
+Scanned at 2021-05-12 21:50:45 PKT for 1306s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT    STATE SERVICE  REASON  VERSION
+80/tcp  open  http     syn-ack Google httpd
+| http-server-header:
+|   Google Frontend
+|_  ghs
+443/tcp open  ssl/http syn-ack Google httpd
+| http-server-header:
+|   Google Frontend
+|_  ghs
+
+Nmap scan report for b2b.zebra.com (192.206.230.208)
+Host is up, received user-set.
+All 1000 scanned ports on b2b.zebra.com (192.206.230.208) are filtered because of 1000 no-responses
+
+Nmap scan report for b2b-sftp.zebra.com (192.206.230.73)
+Host is up, received user-set.
+All 1000 scanned ports on b2b-sftp.zebra.com (192.206.230.73) are filtered because of 1000 no-responses
+
+Nmap scan report for b2bas2.zebra.com (192.206.230.77)
+Host is up, received user-set.
+All 1000 scanned ports on b2bas2.zebra.com (192.206.230.77) are filtered because of 1000 no-responses
+
+Nmap scan report for bi.zebra.com (192.206.230.119)
+Host is up, received user-set.
+All 1000 scanned ports on bi.zebra.com (192.206.230.119) are filtered because of 1000 no-responses
+
+Nmap scan report for blogs.zebra.com (192.206.230.127)
+Host is up, received user-set.
+rDNS record for 192.206.230.127: creative.zebra.com
+All 1000 scanned ports on blogs.zebra.com (192.206.230.127) are filtered because of 1000 no-responses
+
+Nmap scan report for byod.zebra.com (72.18.152.179)
+Host is up, received user-set.
+All 1000 scanned ports on byod.zebra.com (72.18.152.179) are filtered because of 1000 no-responses
+
+Nmap scan report for cards.zebra.com (192.206.230.110)
+Host is up, received user-set.
+All 1000 scanned ports on cards.zebra.com (192.206.230.110) are filtered because of 1000 no-responses
+
+Nmap scan report for cardstudio.zebra.com (52.173.19.194)
+Host is up, received user-set.
+All 1000 scanned ports on cardstudio.zebra.com (52.173.19.194) are filtered because of 1000 no-responses
+
+Nmap scan report for license.cardstudio.zebra.com (52.173.19.194)
+Host is up, received user-set.
+All 1000 scanned ports on license.cardstudio.zebra.com (52.173.19.194) are filtered because of 1000 no-responses
+
+Nmap scan report for staging.cardstudio.zebra.com (52.173.19.194)
+Host is up, received user-set.
+All 1000 scanned ports on staging.cardstudio.zebra.com (52.173.19.194) are filtered because of 1000 no-responses
+
+Nmap scan report for validate.cardstudio.zebra.com (52.173.19.194)
+Host is up, received user-set.
+All 1000 scanned ports on validate.cardstudio.zebra.com (52.173.19.194) are filtered because of 1000 no-responses
+
+Nmap scan report for ccmanual.zebra.com (23.200.232.240)
+Host is up, received user-set.
+All 1000 scanned ports on ccmanual.zebra.com (23.200.232.240) are filtered because of 1000 no-responses
+
+Nmap scan report for cersmartrepo.zebra.com (34.120.125.194)
+Host is up, received user-set (0.045s latency).
+Scanned at 2021-05-12 21:50:46 PKT for 1305s
+Not shown: 970 filtered ports
+Reason: 970 no-responses
+PORT      STATE SERVICE    REASON  VERSION
+43/tcp    open  tcpwrapped syn-ack
+80/tcp    open  http       syn-ack
+| fingerprint-strings:
+|   GetRequest, HTTPOptions:
+|     HTTP/1.0 301 Moved Permanently
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://34.120.125.194/
+|     Content-Length: 220
+|     Date: Wed, 12 May 2021 17:11:25 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>301 Moved</TITLE></HEAD><BODY>
+|     <H1>301 Moved</H1>
+|     document has moved
+|     HREF="https://34.120.125.194/">here</A>.
+|     </BODY></HTML>
+|   RTSPRequest:
+|     HTTP/1.0 400 Bad Request
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Content-Length: 1555
+|     Date: Wed, 12 May 2021 17:11:25 GMT
+|     <!DOCTYPE html>
+|     <html lang=en>
+|     <meta charset=utf-8>
+|     <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+|     <title>Error 400 (Bad Request)!!1</title>
+|     <style>
+|_    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x
+83/tcp    open  tcpwrapped syn-ack
+84/tcp    open  tcpwrapped syn-ack
+85/tcp    open  tcpwrapped syn-ack
+89/tcp    open  tcpwrapped syn-ack
+110/tcp   open  tcpwrapped syn-ack
+143/tcp   open  tcpwrapped syn-ack
+443/tcp   open  ssl/https  syn-ack
+| fingerprint-strings:
+|   FourOhFourRequest, HTTPOptions:
+|     HTTP/1.0 403 Forbidden
+|     Content-Length: 134
+|     Content-Type: text/html; charset=UTF-8
+|     Date: Wed, 12 May 2021 17:11:31 GMT
+|     Alt-Svc: clear
+|     <!doctype html><meta charset="utf-8"><meta name=viewport content="width=device-width, initial-scale=1"><title>403</title>403 Forbidden
+|   GetRequest:
+|     HTTP/1.0 403 Forbidden
+|     Content-Length: 134
+|     Content-Type: text/html; charset=UTF-8
+|     Date: Wed, 12 May 2021 17:11:30 GMT
+|     Alt-Svc: clear
+|     <!doctype html><meta charset="utf-8"><meta name=viewport content="width=device-width, initial-scale=1"><title>403</title>403 Forbidden
+|   RTSPRequest:
+|     HTTP/1.0 400 Bad Request
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Content-Length: 1555
+|     Date: Wed, 12 May 2021 17:11:37 GMT
+|     <!DOCTYPE html>
+|     <html lang=en>
+|     <meta charset=utf-8>
+|     <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+|     <title>Error 400 (Bad Request)!!1</title>
+|     <style>
+|     *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x
+|   tor-versions:
+|     HTTP/1.0 400 Bad Request
+|     Content-Length: 54
+|     Content-Type: text/html; charset=UTF-8
+|     Date: Wed, 12 May 2021 17:11:31 GMT
+|_    <html><title>Error 400 (Bad Request)!!1</title></html>
+587/tcp   open  tcpwrapped syn-ack
+993/tcp   open  tcpwrapped syn-ack
+995/tcp   open  tcpwrapped syn-ack
+1084/tcp  open  tcpwrapped syn-ack
+1443/tcp  open  tcpwrapped syn-ack
+1935/tcp  open  tcpwrapped syn-ack
+3389/tcp  open  tcpwrapped syn-ack
+5432/tcp  open  tcpwrapped syn-ack
+5900/tcp  open  tcpwrapped syn-ack
+5901/tcp  open  tcpwrapped syn-ack
+5999/tcp  open  tcpwrapped syn-ack
+8080/tcp  open  http-proxy syn-ack
+| fingerprint-strings:
+|   GetRequest, HTTPOptions:
+|     HTTP/1.0 404 Not Found
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Content-Length: 1561
+|     Date: Wed, 12 May 2021 17:11:25 GMT
+|     <!DOCTYPE html>
+|     <html lang=en>
+|     <meta charset=utf-8>
+|     <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+|     <title>Error 404 (Not Found)!!1</title>
+|     <style>
+|_    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/goo
+8081/tcp  open  tcpwrapped syn-ack
+|_mcafee-epo-agent: ePO Agent not found
+8086/tcp  open  tcpwrapped syn-ack
+8088/tcp  open  tcpwrapped syn-ack
+8089/tcp  open  tcpwrapped syn-ack
+8090/tcp  open  tcpwrapped syn-ack
+8099/tcp  open  tcpwrapped syn-ack
+9200/tcp  open  tcpwrapped syn-ack
+20000/tcp open  tcpwrapped syn-ack
+30000/tcp open  tcpwrapped syn-ack
+3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.91%I=7%D=5/12%Time=609C0C3D%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,1B9,"HTTP/1\.0\x20301\x20Moved\x20Permanently\r\nCache-Control:\
+SF:x20private\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nReferrer-
+SF:Policy:\x20no-referrer\r\nLocation:\x20https://34\.120\.125\.194/\r\nCo
+SF:ntent-Length:\x20220\r\nDate:\x20Wed,\x2012\x20May\x202021\x2017:11:25\
+SF:x20GMT\r\n\r\n<HTML><HEAD><meta\x20http-equiv=\"content-type\"\x20conte
+SF:nt=\"text/html;charset=utf-8\">\n<TITLE>301\x20Moved</TITLE></HEAD><BOD
+SF:Y>\n<H1>301\x20Moved</H1>\nThe\x20document\x20has\x20moved\n<A\x20HREF=
+SF:\"https://34\.120\.125\.194/\">here</A>\.\r\n</BODY></HTML>\r\n")%r(HTT
+SF:POptions,1B9,"HTTP/1\.0\x20301\x20Moved\x20Permanently\r\nCache-Control
+SF::\x20private\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nReferre
+SF:r-Policy:\x20no-referrer\r\nLocation:\x20https://34\.120\.125\.194/\r\n
+SF:Content-Length:\x20220\r\nDate:\x20Wed,\x2012\x20May\x202021\x2017:11:2
+SF:5\x20GMT\r\n\r\n<HTML><HEAD><meta\x20http-equiv=\"content-type\"\x20con
+SF:tent=\"text/html;charset=utf-8\">\n<TITLE>301\x20Moved</TITLE></HEAD><B
+SF:ODY>\n<H1>301\x20Moved</H1>\nThe\x20document\x20has\x20moved\n<A\x20HRE
+SF:F=\"https://34\.120\.125\.194/\">here</A>\.\r\n</BODY></HTML>\r\n")%r(R
+SF:TSPRequest,6B0,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nContent-Type:\x20
+SF:text/html;\x20charset=UTF-8\r\nReferrer-Policy:\x20no-referrer\r\nConte
+SF:nt-Length:\x201555\r\nDate:\x20Wed,\x2012\x20May\x202021\x2017:11:25\x2
+SF:0GMT\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=en>\n\x20\x20<meta\x20cha
+SF:rset=utf-8>\n\x20\x20<meta\x20name=viewport\x20content=\"initial-scale=
+SF:1,\x20minimum-scale=1,\x20width=device-width\">\n\x20\x20<title>Error\x
+SF:20400\x20\(Bad\x20Request\)!!1</title>\n\x20\x20<style>\n\x20\x20\x20\x
+SF:20\*{margin:0;padding:0}html,code{font:15px/22px\x20arial,sans-serif}ht
+SF:ml{background:#fff;color:#222;padding:15px}body{margin:7%\x20auto\x200;
+SF:max-width:390px;min-height:180px;padding:30px\x200\x2015px}\*\x20>\x20b
+SF:ody{background:url\(//www\.google\.com/images/errors/robot\.png\)\x2010
+SF:0%\x205px\x20no-repeat;padding-right:205px}p{margin:11px\x200\x2022px;o
+SF:verflow:hidden}ins{color:#777;text-decoration:none}a\x20img{border:0}@m
+SF:edia\x20screen\x20and\x20\(max-width:772px\){body{background:none;margi
+SF:n-top:0;max-width:none;padding-right:0}}#logo{background:url\(//www\.go
+SF:ogle\.com/images/branding/googlelogo/1x");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.91%T=SSL%I=7%D=5/12%Time=609C0C42%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,112,"HTTP/1\.0\x20403\x20Forbidden\r\nContent-Length:\x20
+SF:134\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nDate:\x20Wed,\x2
+SF:012\x20May\x202021\x2017:11:30\x20GMT\r\nAlt-Svc:\x20clear\r\n\r\n<!doc
+SF:type\x20html><meta\x20charset=\"utf-8\"><meta\x20name=viewport\x20conte
+SF:nt=\"width=device-width,\x20initial-scale=1\"><title>403</title>403\x20
+SF:Forbidden")%r(HTTPOptions,112,"HTTP/1\.0\x20403\x20Forbidden\r\nContent
+SF:-Length:\x20134\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nDate
+SF::\x20Wed,\x2012\x20May\x202021\x2017:11:31\x20GMT\r\nAlt-Svc:\x20clear\
+SF:r\n\r\n<!doctype\x20html><meta\x20charset=\"utf-8\"><meta\x20name=viewp
+SF:ort\x20content=\"width=device-width,\x20initial-scale=1\"><title>403</t
+SF:itle>403\x20Forbidden")%r(FourOhFourRequest,112,"HTTP/1\.0\x20403\x20Fo
+SF:rbidden\r\nContent-Length:\x20134\r\nContent-Type:\x20text/html;\x20cha
+SF:rset=UTF-8\r\nDate:\x20Wed,\x2012\x20May\x202021\x2017:11:31\x20GMT\r\n
+SF:Alt-Svc:\x20clear\r\n\r\n<!doctype\x20html><meta\x20charset=\"utf-8\"><
+SF:meta\x20name=viewport\x20content=\"width=device-width,\x20initial-scale
+SF:=1\"><title>403</title>403\x20Forbidden")%r(tor-versions,B3,"HTTP/1\.0\
+SF:x20400\x20Bad\x20Request\r\nContent-Length:\x2054\r\nContent-Type:\x20t
+SF:ext/html;\x20charset=UTF-8\r\nDate:\x20Wed,\x2012\x20May\x202021\x2017:
+SF:11:31\x20GMT\r\n\r\n<html><title>Error\x20400\x20\(Bad\x20Request\)!!1<
+SF:/title></html>")%r(RTSPRequest,6B0,"HTTP/1\.0\x20400\x20Bad\x20Request\
+SF:r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nReferrer-Policy:\x20
+SF:no-referrer\r\nContent-Length:\x201555\r\nDate:\x20Wed,\x2012\x20May\x2
+SF:02021\x2017:11:37\x20GMT\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=en>\n
+SF:\x20\x20<meta\x20charset=utf-8>\n\x20\x20<meta\x20name=viewport\x20cont
+SF:ent=\"initial-scale=1,\x20minimum-scale=1,\x20width=device-width\">\n\x
+SF:20\x20<title>Error\x20400\x20\(Bad\x20Request\)!!1</title>\n\x20\x20<st
+SF:yle>\n\x20\x20\x20\x20\*{margin:0;padding:0}html,code{font:15px/22px\x2
+SF:0arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{mar
+SF:gin:7%\x20auto\x200;max-width:390px;min-height:180px;padding:30px\x200\
+SF:x2015px}\*\x20>\x20body{background:url\(//www\.google\.com/images/error
+SF:s/robot\.png\)\x20100%\x205px\x20no-repeat;padding-right:205px}p{margin
+SF::11px\x200\x2022px;overflow:hidden}ins{color:#777;text-decoration:none}
+SF:a\x20img{border:0}@media\x20screen\x20and\x20\(max-width:772px\){body{b
+SF:ackground:none;margin-top:0;max-width:none;padding-right:0}}#logo{backg
+SF:round:url\(//www\.google\.com/images/branding/googlelogo/1x");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8080-TCP:V=7.91%I=7%D=5/12%Time=609C0C3D%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,6B4,"HTTP/1\.0\x20404\x20Not\x20Found\r\nContent-Type:\x20text
+SF:/html;\x20charset=UTF-8\r\nReferrer-Policy:\x20no-referrer\r\nContent-L
+SF:ength:\x201561\r\nDate:\x20Wed,\x2012\x20May\x202021\x2017:11:25\x20GMT
+SF:\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=en>\n\x20\x20<meta\x20charset
+SF:=utf-8>\n\x20\x20<meta\x20name=viewport\x20content=\"initial-scale=1,\x
+SF:20minimum-scale=1,\x20width=device-width\">\n\x20\x20<title>Error\x2040
+SF:4\x20\(Not\x20Found\)!!1</title>\n\x20\x20<style>\n\x20\x20\x20\x20\*{m
+SF:argin:0;padding:0}html,code{font:15px/22px\x20arial,sans-serif}html{bac
+SF:kground:#fff;color:#222;padding:15px}body{margin:7%\x20auto\x200;max-wi
+SF:dth:390px;min-height:180px;padding:30px\x200\x2015px}\*\x20>\x20body{ba
+SF:ckground:url\(//www\.google\.com/images/errors/robot\.png\)\x20100%\x20
+SF:5px\x20no-repeat;padding-right:205px}p{margin:11px\x200\x2022px;overflo
+SF:w:hidden}ins{color:#777;text-decoration:none}a\x20img{border:0}@media\x
+SF:20screen\x20and\x20\(max-width:772px\){body{background:none;margin-top:
+SF:0;max-width:none;padding-right:0}}#logo{background:url\(//www\.google\.
+SF:com/images/branding/googlelogo/1x/goo")%r(HTTPOptions,6B4,"HTTP/1\.0\x2
+SF:0404\x20Not\x20Found\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\
+SF:nReferrer-Policy:\x20no-referrer\r\nContent-Length:\x201561\r\nDate:\x2
+SF:0Wed,\x2012\x20May\x202021\x2017:11:25\x20GMT\r\n\r\n<!DOCTYPE\x20html>
+SF:\n<html\x20lang=en>\n\x20\x20<meta\x20charset=utf-8>\n\x20\x20<meta\x20
+SF:name=viewport\x20content=\"initial-scale=1,\x20minimum-scale=1,\x20widt
+SF:h=device-width\">\n\x20\x20<title>Error\x20404\x20\(Not\x20Found\)!!1</
+SF:title>\n\x20\x20<style>\n\x20\x20\x20\x20\*{margin:0;padding:0}html,cod
+SF:e{font:15px/22px\x20arial,sans-serif}html{background:#fff;color:#222;pa
+SF:dding:15px}body{margin:7%\x20auto\x200;max-width:390px;min-height:180px
+SF:;padding:30px\x200\x2015px}\*\x20>\x20body{background:url\(//www\.googl
+SF:e\.com/images/errors/robot\.png\)\x20100%\x205px\x20no-repeat;padding-r
+SF:ight:205px}p{margin:11px\x200\x2022px;overflow:hidden}ins{color:#777;te
+SF:xt-decoration:none}a\x20img{border:0}@media\x20screen\x20and\x20\(max-w
+SF:idth:772px\){body{background:none;margin-top:0;max-width:none;padding-r
+SF:ight:0}}#logo{background:url\(//www\.google\.com/images/branding/google
+SF:logo/1x/goo");
+
+Nmap scan report for channelsolutions.zebra.com (23.92.229.194)
+Host is up, received user-set.
+All 1000 scanned ports on channelsolutions.zebra.com (23.92.229.194) are filtered because of 1000 no-responses
+
+Nmap scan report for clarity.zebra.com (207.200.34.46)
+Host is up, received user-set.
+All 1000 scanned ports on clarity.zebra.com (207.200.34.46) are filtered because of 1000 no-responses
+
+Nmap scan report for cloudview.zebra.com (192.206.230.59)
+Host is up, received user-set.
+All 1000 scanned ports on cloudview.zebra.com (192.206.230.59) are filtered because of 1000 no-responses
+
+Nmap scan report for compintel.zebra.com (69.16.228.167)
+Host is up, received user-set.
+All 1000 scanned ports on compintel.zebra.com (69.16.228.167) are filtered because of 1000 no-responses
+
+Nmap scan report for www.compintel.zebra.com (69.16.228.167)
+Host is up, received user-set.
+All 1000 scanned ports on www.compintel.zebra.com (69.16.228.167) are filtered because of 1000 no-responses
+
+Nmap scan report for confluence.zebra.com (192.206.230.190)
+Host is up, received user-set.
+All 1000 scanned ports on confluence.zebra.com (192.206.230.190) are filtered because of 1000 no-responses
+
+Nmap scan report for connect.zebra.com (142.0.173.134)
+Host is up, received user-set.
+All 1000 scanned ports on connect.zebra.com (142.0.173.134) are filtered because of 1000 no-responses
+
+Nmap scan report for connectfpc.zebra.com (142.0.173.134)
+Host is up, received user-set.
+All 1000 scanned ports on connectfpc.zebra.com (142.0.173.134) are filtered because of 1000 no-responses
+
+Nmap scan report for creative.zebra.com (192.206.230.127)
+Host is up, received user-set.
+All 1000 scanned ports on creative.zebra.com (192.206.230.127) are filtered because of 1000 no-responses
+
+Nmap scan report for crp1-b2b.zebra.com (192.206.230.193)
+Host is up, received user-set.
+All 1000 scanned ports on crp1-b2b.zebra.com (192.206.230.193) are filtered because of 1000 no-responses
+
+Nmap scan report for crp1-otc.zebra.com (192.206.230.194)
+Host is up, received user-set.
+All 1000 scanned ports on crp1-otc.zebra.com (192.206.230.194) are filtered because of 1000 no-responses
+
+Nmap scan report for crp1-tpl.zebra.com (192.206.230.192)
+Host is up, received user-set.
+All 1000 scanned ports on crp1-tpl.zebra.com (192.206.230.192) are filtered because of 1000 no-responses
+
+Nmap scan report for crp1-tso.zebra.com (192.206.230.195)
+Host is up, received user-set.
+All 1000 scanned ports on crp1-tso.zebra.com (192.206.230.195) are filtered because of 1000 no-responses
+
+Nmap scan report for crp2-b2b.zebra.com (192.206.230.246)
+Host is up, received user-set.
+All 1000 scanned ports on crp2-b2b.zebra.com (192.206.230.246) are filtered because of 1000 no-responses
+
+Nmap scan report for crp2-evm-agileplm.zebra.com (192.206.230.126)
+Host is up, received user-set.
+All 1000 scanned ports on crp2-evm-agileplm.zebra.com (192.206.230.126) are filtered because of 1000 no-responses
+
+Nmap scan report for crp2-otc.zebra.com (192.206.230.247)
+Host is up, received user-set.
+All 1000 scanned ports on crp2-otc.zebra.com (192.206.230.247) are filtered because of 1000 no-responses
+
+Nmap scan report for crp2-sbr.zebra.com (192.206.230.238)
+Host is up, received user-set.
+All 1000 scanned ports on crp2-sbr.zebra.com (192.206.230.238) are filtered because of 1000 no-responses
+
+Nmap scan report for crp2-tpl.zebra.com (192.206.230.245)
+Host is up, received user-set.
+All 1000 scanned ports on crp2-tpl.zebra.com (192.206.230.245) are filtered because of 1000 no-responses
+
+Nmap scan report for crp2-tso.zebra.com (192.206.230.248)
+Host is up, received user-set.
+All 1000 scanned ports on crp2-tso.zebra.com (192.206.230.248) are filtered because of 1000 no-responses
+
+Nmap scan report for erica.cto.zebra.com (52.24.72.204)
+Host is up, received user-set.
+All 1000 scanned ports on erica.cto.zebra.com (52.24.72.204) are filtered because of 1000 no-responses
+
+Nmap scan report for custchoice.zebra.com (192.206.230.91)
+Host is up, received user-set (0.0078s latency).
+All 1000 scanned ports on custchoice.zebra.com (192.206.230.91) are filtered because of 999 no-responses and 1 host-unreach
+
+Nmap scan report for dcs-polarion.zebra.com (192.206.230.143)
+Host is up, received user-set.
+All 1000 scanned ports on dcs-polarion.zebra.com (192.206.230.143) are filtered because of 1000 no-responses
+
+Initiating Connect Scan at 22:12
+Scanning 64 hosts [1000 ports/host]
+Discovered open port 110/tcp on 35.244.198.15
+Discovered open port 110/tcp on 35.190.126.18
+Discovered open port 110/tcp on 34.98.124.4
+Discovered open port 110/tcp on 34.120.58.89
+Discovered open port 110/tcp on 35.227.193.115
+Discovered open port 110/tcp on 34.98.84.144
+Discovered open port 110/tcp on 35.244.170.204
+Discovered open port 993/tcp on 34.98.84.144
+Discovered open port 110/tcp on 35.244.168.225
+Discovered open port 993/tcp on 35.244.198.15
+Discovered open port 993/tcp on 35.190.126.18
+Discovered open port 993/tcp on 35.227.193.115
+Discovered open port 993/tcp on 34.98.124.4
+Discovered open port 110/tcp on 34.120.14.227
+Discovered open port 995/tcp on 35.244.198.15
+Discovered open port 993/tcp on 34.120.58.89
+Discovered open port 995/tcp on 35.227.193.115
+Discovered open port 995/tcp on 34.98.84.144
+Discovered open port 5900/tcp on 34.98.84.144
+Discovered open port 110/tcp on 34.120.105.209
+Discovered open port 993/tcp on 35.244.170.204
+Discovered open port 995/tcp on 34.98.124.4
+Discovered open port 993/tcp on 34.120.14.227
+Discovered open port 993/tcp on 35.244.168.225
+Discovered open port 995/tcp on 35.190.126.18
+Discovered open port 995/tcp on 35.244.170.204
+Discovered open port 993/tcp on 34.120.105.209
+Discovered open port 110/tcp on 34.102.233.216
+Discovered open port 5900/tcp on 34.98.124.4
+Discovered open port 5900/tcp on 35.244.198.15
+Discovered open port 995/tcp on 34.120.14.227
+Discovered open port 5900/tcp on 35.227.193.115
+Discovered open port 5900/tcp on 34.120.58.89
+Discovered open port 5900/tcp on 35.190.126.18
+Discovered open port 995/tcp on 34.120.58.89
+Discovered open port 443/tcp on 34.98.84.144
+Discovered open port 5900/tcp on 35.244.170.204
+Discovered open port 5900/tcp on 34.120.14.227
+Discovered open port 3389/tcp on 34.98.84.144
+Discovered open port 995/tcp on 34.120.105.209
+Discovered open port 995/tcp on 35.244.168.225
+Discovered open port 443/tcp on 35.227.193.115
+Discovered open port 5900/tcp on 34.120.105.209
+Discovered open port 5900/tcp on 35.244.168.225
+Discovered open port 3389/tcp on 35.227.193.115
+Discovered open port 443/tcp on 34.120.58.89
+Discovered open port 443/tcp on 34.98.124.4
+Discovered open port 3389/tcp on 34.120.58.89
+Discovered open port 443/tcp on 35.244.170.204
+Discovered open port 443/tcp on 35.244.168.225
+Discovered open port 3389/tcp on 34.98.124.4
+Discovered open port 993/tcp on 34.102.233.216
+Discovered open port 3389/tcp on 35.244.170.204
+Discovered open port 3389/tcp on 35.244.168.225
+Discovered open port 995/tcp on 34.102.233.216
+Discovered open port 80/tcp on 35.244.170.204
+Discovered open port 80/tcp on 34.98.124.4
+Discovered open port 143/tcp on 35.244.170.204
+Discovered open port 443/tcp on 34.120.105.209
+Discovered open port 80/tcp on 35.244.168.225
+Discovered open port 443/tcp on 34.120.14.227
+Discovered open port 3389/tcp on 34.120.105.209
+Discovered open port 143/tcp on 34.98.124.4
+Discovered open port 5900/tcp on 34.102.233.216
+Discovered open port 443/tcp on 34.102.233.216
+Discovered open port 3389/tcp on 34.102.233.216
+Discovered open port 80/tcp on 34.102.233.216
+Discovered open port 143/tcp on 34.102.233.216
+Discovered open port 8080/tcp on 34.102.233.216
+Discovered open port 587/tcp on 34.102.233.216
+Discovered open port 80/tcp on 34.120.105.209
+Discovered open port 143/tcp on 35.244.168.225
+Discovered open port 3389/tcp on 34.120.14.227
+Discovered open port 80/tcp on 35.227.193.115
+Discovered open port 80/tcp on 34.98.84.144
+Discovered open port 8080/tcp on 35.244.170.204
+Discovered open port 80/tcp on 34.120.58.89
+Discovered open port 8080/tcp on 34.98.124.4
+Discovered open port 443/tcp on 35.190.126.18
+Discovered open port 587/tcp on 34.98.124.4
+Discovered open port 443/tcp on 35.244.198.15
+Discovered open port 3389/tcp on 35.190.126.18
+Discovered open port 143/tcp on 35.227.193.115
+Discovered open port 3389/tcp on 35.244.198.15
+Discovered open port 587/tcp on 35.244.170.204
+Discovered open port 80/tcp on 34.120.14.227
+Discovered open port 8080/tcp on 35.244.168.225
+Discovered open port 143/tcp on 34.120.58.89
+Discovered open port 587/tcp on 35.244.168.225
+Discovered open port 143/tcp on 34.120.105.209
+Discovered open port 80/tcp on 35.244.198.15
+Discovered open port 143/tcp on 34.98.84.144
+Discovered open port 80/tcp on 35.190.126.18
+Discovered open port 8080/tcp on 34.120.105.209
+Discovered open port 143/tcp on 34.120.14.227
+Discovered open port 587/tcp on 34.120.105.209
+Discovered open port 8080/tcp on 34.120.58.89
+Discovered open port 143/tcp on 35.244.198.15
+Discovered open port 587/tcp on 34.120.58.89
+Discovered open port 587/tcp on 34.98.84.144
+Discovered open port 587/tcp on 35.244.198.15
+Connect Scan Timing: About 2.64% done; ETC: 22:32 (0:19:03 remaining)
+Discovered open port 8089/tcp on 35.244.170.204
+Discovered open port 8080/tcp on 35.190.126.18
+Discovered open port 587/tcp on 35.190.126.18
+Discovered open port 8089/tcp on 34.120.58.89
+Discovered open port 8089/tcp on 35.244.168.225
+Discovered open port 8089/tcp on 34.98.124.4
+Discovered open port 8089/tcp on 34.120.105.209
+Discovered open port 8089/tcp on 35.244.198.15
+Discovered open port 8089/tcp on 35.227.193.115
+Connect Scan Timing: About 4.49% done; ETC: 22:35 (0:21:39 remaining)
+Discovered open port 8089/tcp on 35.190.126.18
+Discovered open port 5432/tcp on 35.244.170.204
+Discovered open port 5432/tcp on 34.120.58.89
+Discovered open port 5432/tcp on 34.120.105.209
+Discovered open port 1089/tcp on 34.102.233.216
+Discovered open port 5432/tcp on 35.244.168.225
+Discovered open port 5432/tcp on 34.98.84.144
+Connect Scan Timing: About 7.23% done; ETC: 22:33 (0:19:28 remaining)
+Discovered open port 1089/tcp on 35.244.170.204
+Discovered open port 5432/tcp on 35.190.126.18
+Discovered open port 1089/tcp on 35.227.193.115
+Discovered open port 1089/tcp on 35.244.198.15
+Discovered open port 1089/tcp on 34.120.14.227
+Discovered open port 1089/tcp on 35.190.126.18
+Connect Scan Timing: About 10.41% done; ETC: 22:31 (0:17:21 remaining)
+Increasing send delay for 34.102.233.216 from 0 to 5 due to 11 out of 30 dropped probes since last increase.
+Connect Scan Timing: About 13.91% done; ETC: 22:30 (0:15:53 remaining)
+Increasing send delay for 35.244.170.204 from 0 to 5 due to 11 out of 34 dropped probes since last increase.
+Discovered open port 5222/tcp on 34.102.233.216
+Increasing send delay for 35.190.126.18 from 0 to 5 due to 11 out of 33 dropped probes since last increase.
+Increasing send delay for 34.120.105.209 from 0 to 5 due to 11 out of 30 dropped probes since last increase.
+Increasing send delay for 34.120.58.89 from 0 to 5 due to 11 out of 33 dropped probes since last increase.
+Increasing send delay for 35.244.198.15 from 0 to 5 due to 11 out of 32 dropped probes since last increase.
+Increasing send delay for 35.227.193.115 from 0 to 5 due to 11 out of 35 dropped probes since last increase.
+Increasing send delay for 34.98.124.4 from 0 to 5 due to 11 out of 32 dropped probes since last increase.
+Discovered open port 5222/tcp on 35.227.193.115
+Discovered open port 5222/tcp on 34.98.84.144
+Discovered open port 5222/tcp on 35.244.168.225
+Discovered open port 1089/tcp on 35.244.168.225
+Discovered open port 1443/tcp on 34.102.233.216
+Increasing send delay for 35.244.168.225 from 0 to 5 due to 13 out of 43 dropped probes since last increase.
+Discovered open port 5222/tcp on 35.190.126.18
+Increasing send delay for 34.120.14.227 from 0 to 5 due to 11 out of 32 dropped probes since last increase.
+Discovered open port 5222/tcp on 35.244.198.15
+Increasing send delay for 34.98.84.144 from 0 to 5 due to 12 out of 39 dropped probes since last increase.
+Discovered open port 5222/tcp on 34.98.124.4
+Discovered open port 1443/tcp on 34.98.84.144
+Discovered open port 89/tcp on 34.98.84.144
+Discovered open port 8080/tcp on 35.244.198.15
+Discovered open port 8086/tcp on 34.98.84.144
+Discovered open port 8086/tcp on 35.190.126.18
+Discovered open port 5432/tcp on 35.244.198.15
+Discovered open port 89/tcp on 35.190.126.18
+Discovered open port 1443/tcp on 35.190.126.18
+Discovered open port 5222/tcp on 34.120.14.227
+Discovered open port 8086/tcp on 34.120.58.89
+Discovered open port 89/tcp on 34.120.58.89
+Discovered open port 1443/tcp on 34.120.58.89
+Connect Scan Timing: About 19.96% done; ETC: 22:30 (0:14:30 remaining)
+Increasing send delay for 35.244.198.15 from 5 to 10 due to 11 out of 19 dropped probes since last increase.
+Discovered open port 1089/tcp on 34.98.84.144
+Increasing send delay for 34.98.124.4 from 5 to 10 due to 11 out of 17 dropped probes since last increase.
+Discovered open port 8089/tcp on 34.98.84.144
+Increasing send delay for 34.98.84.144 from 5 to 10 due to max_successful_tryno increase to 4
+Discovered open port 8086/tcp on 34.120.14.227
+Discovered open port 8086/tcp on 35.244.170.204
+Increasing send delay for 34.102.233.216 from 5 to 10 due to 11 out of 19 dropped probes since last increase.
+Discovered open port 89/tcp on 35.244.170.204
+Discovered open port 1443/tcp on 35.244.170.204
+Discovered open port 8086/tcp on 34.98.124.4
+Discovered open port 89/tcp on 34.98.124.4
+Discovered open port 8080/tcp on 34.98.84.144
+Discovered open port 8086/tcp on 35.244.168.225
+Discovered open port 1443/tcp on 34.98.124.4
+Connect Scan Timing: About 23.53% done; ETC: 22:30 (0:13:23 remaining)
+Discovered open port 8089/tcp on 34.120.14.227
+Discovered open port 5432/tcp on 34.120.14.227
+Discovered open port 8086/tcp on 35.244.198.15
+Increasing send delay for 35.244.198.15 from 10 to 20 due to 11 out of 21 dropped probes since last increase.
+Discovered open port 89/tcp on 35.244.198.15
+Increasing send delay for 35.244.198.15 from 20 to 40 due to max_successful_tryno increase to 4
+Increasing send delay for 35.227.193.115 from 5 to 10 due to 11 out of 17 dropped probes since last increase.
+Increasing send delay for 35.244.170.204 from 5 to 10 due to 11 out of 24 dropped probes since last increase.
+Increasing send delay for 34.98.84.144 from 10 to 20 due to 11 out of 20 dropped probes since last increase.
+Increasing send delay for 34.120.14.227 from 5 to 10 due to 11 out of 26 dropped probes since last increase.
+Increasing send delay for 35.190.126.18 from 5 to 10 due to 11 out of 25 dropped probes since last increase.
+Discovered open port 1443/tcp on 35.244.198.15
+Increasing send delay for 35.244.168.225 from 5 to 10 due to 11 out of 25 dropped probes since last increase.
+Discovered open port 587/tcp on 34.120.14.227
+Discovered open port 8080/tcp on 34.120.14.227
+Discovered open port 9200/tcp on 35.190.126.18
+Discovered open port 9200/tcp on 34.102.233.216
+Discovered open port 8085/tcp on 35.227.193.115
+Connect Scan Timing: About 27.45% done; ETC: 22:29 (0:12:12 remaining)
+Discovered open port 1443/tcp on 34.120.14.227
+Increasing send delay for 34.120.105.209 from 5 to 10 due to 11 out of 20 dropped probes since last increase.
+Discovered open port 9200/tcp on 34.120.58.89
+Increasing send delay for 34.120.58.89 from 5 to 10 due to 11 out of 27 dropped probes since last increase.
+Discovered open port 9100/tcp on 34.120.58.89
+Increasing send delay for 34.98.124.4 from 10 to 20 due to 11 out of 18 dropped probes since last increase.
+Discovered open port 700/tcp on 35.227.193.115
+Discovered open port 9100/tcp on 35.227.193.115
+Discovered open port 700/tcp on 34.102.233.216
+Discovered open port 1085/tcp on 34.102.233.216
+Discovered open port 1443/tcp on 35.227.193.115
+Discovered open port 700/tcp on 35.190.126.18
+Discovered open port 89/tcp on 35.227.193.115
+Discovered open port 8086/tcp on 35.227.193.115
+Discovered open port 8085/tcp on 35.190.126.18
+Discovered open port 1089/tcp on 34.120.58.89
+Increasing send delay for 35.244.198.15 from 40 to 80 due to 11 out of 27 dropped probes since last increase.
+Discovered open port 9100/tcp on 35.190.126.18
+Increasing send delay for 34.98.84.144 from 20 to 40 due to 11 out of 20 dropped probes since last increase.
+Connect Scan Timing: About 31.80% done; ETC: 22:29 (0:11:18 remaining)
+Increasing send delay for 34.120.14.227 from 10 to 20 due to 11 out of 22 dropped probes since last increase.
+Increasing send delay for 35.227.193.115 from 10 to 20 due to 11 out of 33 dropped probes since last increase.
+Increasing send delay for 35.244.170.204 from 10 to 20 due to 11 out of 13 dropped probes since last increase.
+Increasing send delay for 35.190.126.18 from 10 to 20 due to 11 out of 26 dropped probes since last increase.
+Discovered open port 8085/tcp on 34.120.58.89
+Discovered open port 1085/tcp on 35.227.193.115
+Increasing send delay for 35.244.168.225 from 10 to 20 due to 11 out of 20 dropped probes since last increase.
+Connect Scan Timing: About 36.01% done; ETC: 22:28 (0:10:15 remaining)
+Discovered open port 9200/tcp on 34.98.84.144
+Discovered open port 30000/tcp on 34.120.105.209
+Discovered open port 9100/tcp on 34.120.14.227
+Increasing send delay for 34.98.84.144 from 40 to 80 due to 11 out of 18 dropped probes since last increase.
+Discovered open port 8085/tcp on 35.244.168.225
+Discovered open port 9200/tcp on 35.244.168.225
+Increasing send delay for 35.244.168.225 from 20 to 40 due to max_successful_tryno increase to 4
+Discovered open port 8088/tcp on 35.227.193.115
+Increasing send delay for 35.227.193.115 from 20 to 40 due to 11 out of 18 dropped probes since last increase.
+Increasing send delay for 34.120.58.89 from 10 to 20 due to 12 out of 38 dropped probes since last increase.
+Discovered open port 143/tcp on 35.190.126.18
+Discovered open port 9100/tcp on 35.244.168.225
+Increasing send delay for 34.102.233.216 from 10 to 20 due to 11 out of 25 dropped probes since last increase.
+Discovered open port 1443/tcp on 35.244.168.225
+Discovered open port 89/tcp on 35.244.168.225
+Discovered open port 9200/tcp on 34.120.14.227
+Increasing send delay for 35.244.198.15 from 80 to 160 due to 11 out of 21 dropped probes since last increase.
+Discovered open port 700/tcp on 34.98.124.4
+Connect Scan Timing: About 40.18% done; ETC: 22:28 (0:09:20 remaining)
+Discovered open port 30000/tcp on 35.190.126.18
+Discovered open port 8085/tcp on 34.120.14.227
+Increasing send delay for 35.244.168.225 from 40 to 80 due to 11 out of 21 dropped probes since last increase.
+Discovered open port 8088/tcp on 35.190.126.18
+Increasing send delay for 34.98.124.4 from 20 to 40 due to 11 out of 23 dropped probes since last increase.
+Increasing send delay for 34.120.14.227 from 20 to 40 due to 11 out of 29 dropped probes since last increase.
+Discovered open port 700/tcp on 35.244.170.204
+Discovered open port 9200/tcp on 35.244.198.15
+Increasing send delay for 35.244.170.204 from 20 to 40 due to 11 out of 14 dropped probes since last increase.
+Discovered open port 1085/tcp on 35.244.170.204
+Discovered open port 83/tcp on 35.227.193.115
+Discovered open port 700/tcp on 34.120.14.227
+Discovered open port 700/tcp on 34.98.84.144
+Discovered open port 1085/tcp on 34.120.14.227
+Discovered open port 83/tcp on 34.120.105.209
+Discovered open port 5901/tcp on 34.102.233.216
+Discovered open port 1084/tcp on 35.190.126.18
+Discovered open port 30000/tcp on 34.120.14.227
+Increasing send delay for 35.244.168.225 from 80 to 160 due to 11 out of 16 dropped probes since last increase.
+Discovered open port 1085/tcp on 34.98.84.144
+Discovered open port 8085/tcp on 35.244.198.15
+Connect Scan Timing: About 44.50% done; ETC: 22:27 (0:08:26 remaining)
+Discovered open port 1084/tcp on 34.120.58.89
+Increasing send delay for 35.190.126.18 from 20 to 40 due to 14 out of 46 dropped probes since last increase.
+Increasing send delay for 34.98.84.144 from 80 to 160 due to 11 out of 21 dropped probes since last increase.
+Increasing send delay for 34.120.105.209 from 10 to 20 due to 11 out of 26 dropped probes since last increase.
+Discovered open port 30000/tcp on 34.98.84.144
+Increasing send delay for 34.98.84.144 from 160 to 320 due to max_successful_tryno increase to 5
+Increasing send delay for 35.227.193.115 from 40 to 80 due to 11 out of 24 dropped probes since last increase.
+Discovered open port 83/tcp on 34.120.58.89
+Discovered open port 83/tcp on 34.98.124.4
+Increasing send delay for 34.120.14.227 from 40 to 80 due to 11 out of 21 dropped probes since last increase.
+Increasing send delay for 35.190.126.18 from 40 to 80 due to 11 out of 12 dropped probes since last increase.
+Discovered open port 5999/tcp on 34.102.233.216
+Discovered open port 8085/tcp on 34.98.84.144
+Increasing send delay for 34.98.84.144 from 320 to 640 due to max_successful_tryno increase to 6
+Discovered open port 1084/tcp on 35.244.170.204
+Discovered open port 700/tcp on 35.244.198.15
+Discovered open port 1085/tcp on 35.244.198.15
+Connect Scan Timing: About 50.16% done; ETC: 22:27 (0:07:31 remaining)
+Discovered open port 5901/tcp on 35.227.193.115
+Increasing send delay for 34.102.233.216 from 20 to 40 due to 11 out of 21 dropped probes since last increase.
+Discovered open port 700/tcp on 35.244.168.225
+Discovered open port 5999/tcp on 34.120.105.209
+Discovered open port 83/tcp on 34.120.14.227
+Increasing send delay for 34.98.124.4 from 40 to 80 due to 11 out of 25 dropped probes since last increase.
+Discovered open port 30000/tcp on 35.244.198.15
+Increasing send delay for 35.244.198.15 from 160 to 320 due to 11 out of 34 dropped probes since last increase.
+Discovered open port 30000/tcp on 35.227.193.115
+Increasing send delay for 35.227.193.115 from 80 to 160 due to max_successful_tryno increase to 4
+Increasing send delay for 34.120.58.89 from 20 to 40 due to 12 out of 38 dropped probes since last increase.
+Discovered open port 1084/tcp on 35.227.193.115
+Increasing send delay for 35.227.193.115 from 160 to 320 due to max_successful_tryno increase to 5
+Increasing send delay for 34.120.105.209 from 20 to 40 due to 11 out of 16 dropped probes since last increase.
+Discovered open port 5901/tcp on 34.98.124.4
+Discovered open port 1084/tcp on 34.98.124.4
+Increasing send delay for 34.120.14.227 from 80 to 160 due to 11 out of 21 dropped probes since last increase.
+Discovered open port 30000/tcp on 35.244.168.225
+Discovered open port 8088/tcp on 35.244.198.15
+Connect Scan Timing: About 55.13% done; ETC: 22:27 (0:06:39 remaining)
+Increasing send delay for 34.98.124.4 from 80 to 160 due to 11 out of 18 dropped probes since last increase.
+Discovered open port 8088/tcp on 34.98.124.4
+Increasing send delay for 34.98.124.4 from 160 to 320 due to max_successful_tryno increase to 4
+Increasing send delay for 35.190.126.18 from 80 to 160 due to 11 out of 28 dropped probes since last increase.
+Increasing send delay for 35.244.170.204 from 40 to 80 due to 11 out of 34 dropped probes since last increase.
+Discovered open port 9100/tcp on 34.98.84.144
+Discovered open port 8088/tcp on 35.244.168.225
+Increasing send delay for 35.244.168.225 from 160 to 320 due to 11 out of 31 dropped probes since last increase.
+Discovered open port 43/tcp on 34.120.105.209
+Completed Connect Scan against 192.206.230.20 in 511.08s (63 hosts left)
+Increasing send delay for 34.120.58.89 from 40 to 80 due to 11 out of 14 dropped probes since last increase.
+Discovered open port 5999/tcp on 35.190.126.18
+Discovered open port 20000/tcp on 34.102.233.216
+Connect Scan Timing: About 60.50% done; ETC: 22:26 (0:05:39 remaining)
+Increasing send delay for 34.120.105.209 from 40 to 80 due to 11 out of 19 dropped probes since last increase.
+Discovered open port 1084/tcp on 34.120.105.209
+Discovered open port 5901/tcp on 34.120.14.227
+Increasing send delay for 34.102.233.216 from 40 to 80 due to 11 out of 21 dropped probes since last increase.
+Discovered open port 30000/tcp on 34.98.124.4
+Increasing send delay for 34.98.124.4 from 320 to 640 due to max_successful_tryno increase to 5
+Increasing send delay for 34.120.105.209 from 80 to 160 due to 11 out of 19 dropped probes since last increase.
+Discovered open port 8088/tcp on 34.120.105.209
+Discovered open port 465/tcp on 34.102.233.216
+Connect Scan Timing: About 65.37% done; ETC: 22:26 (0:04:53 remaining)
+Increasing send delay for 34.98.84.144 from 640 to 1000 due to 11 out of 17 dropped probes since last increase.
+Discovered open port 700/tcp on 34.120.105.209
+Increasing send delay for 35.244.170.204 from 80 to 160 due to 11 out of 16 dropped probes since last increase.
+Discovered open port 1084/tcp on 35.244.198.15
+Completed Connect Scan against 192.206.230.230 in 564.19s (62 hosts left)
+Discovered open port 587/tcp on 35.227.193.115
+Increasing send delay for 35.227.193.115 from 320 to 640 due to max_successful_tryno increase to 6
+Discovered open port 9200/tcp on 34.120.105.209
+Discovered open port 8080/tcp on 35.227.193.115
+Increasing send delay for 35.227.193.115 from 640 to 1000 due to max_successful_tryno increase to 7
+Increasing send delay for 35.190.126.18 from 160 to 320 due to 11 out of 22 dropped probes since last increase.
+Increasing send delay for 34.120.14.227 from 160 to 320 due to 11 out of 27 dropped probes since last increase.
+Increasing send delay for 34.120.58.89 from 80 to 160 due to 11 out of 23 dropped probes since last increase.
+Discovered open port 1084/tcp on 35.244.168.225
+Completed Connect Scan against 192.206.230.26 in 583.47s (61 hosts left)
+Connect Scan Timing: About 70.75% done; ETC: 22:26 (0:04:04 remaining)
+Discovered open port 43/tcp on 35.244.170.204
+Increasing send delay for 34.102.233.216 from 80 to 160 due to 11 out of 21 dropped probes since last increase.
+Discovered open port 84/tcp on 34.102.233.216
+Discovered open port 5901/tcp on 34.120.105.209
+Increasing send delay for 34.120.105.209 from 160 to 320 due to max_successful_tryno increase to 4
+Discovered open port 5999/tcp on 34.120.14.227
+Completed Connect Scan against 192.206.230.127 in 608.09s (60 hosts left)
+Completed Connect Scan against 37.221.223.10 in 608.39s (59 hosts left)
+Completed Connect Scan against 192.206.230.144 in 611.17s (58 hosts left)
+Discovered open port 85/tcp on 34.120.58.89
+Completed Connect Scan against 192.206.230.221 in 612.03s (57 hosts left)
+Discovered open port 83/tcp on 35.244.198.15
+Completed Connect Scan against 192.206.230.33 in 616.59s (56 hosts left)
+Connect Scan Timing: About 75.65% done; ETC: 22:26 (0:03:19 remaining)
+Discovered open port 5901/tcp on 35.244.170.204
+Completed Connect Scan against 192.206.230.232 in 625.94s (55 hosts left)
+Discovered open port 43/tcp on 35.190.126.18
+Increasing send delay for 35.190.126.18 from 320 to 640 due to max_successful_tryno increase to 4
+Discovered open port 5999/tcp on 35.244.170.204
+Increasing send delay for 35.244.170.204 from 160 to 320 due to max_successful_tryno increase to 4
+Completed Connect Scan against 192.206.230.46 in 635.20s (54 hosts left)
+Discovered open port 83/tcp on 35.244.168.225
+Discovered open port 1085/tcp on 34.98.124.4
+Completed Connect Scan against 192.206.230.145 in 640.48s (53 hosts left)
+Completed Connect Scan against 192.206.230.127 in 641.34s (52 hosts left)
+Completed Connect Scan against 192.206.230.48 in 641.51s (51 hosts left)
+Connect Scan Timing: About 80.69% done; ETC: 22:25 (0:02:35 remaining)
+Completed Connect Scan against 23.200.232.240 in 654.30s (50 hosts left)
+Completed Connect Scan against 192.206.230.49 in 654.56s (49 hosts left)
+Increasing send delay for 35.244.198.15 from 320 to 640 due to 13 out of 41 dropped probes since last increase.
+Completed Connect Scan against 35.202.34.114 in 660.45s (48 hosts left)
+Discovered open port 20000/tcp on 34.120.58.89
+Completed Connect Scan against 192.206.230.127 in 665.44s (47 hosts left)
+Completed Connect Scan against 192.206.230.235 in 665.92s (46 hosts left)
+Completed Connect Scan against 192.206.230.49 in 666.38s (45 hosts left)
+Completed Connect Scan against 23.77.6.223 in 666.55s (44 hosts left)
+Completed Connect Scan against 23.77.6.223 in 667.15s (43 hosts left)
+Completed Connect Scan against 18.130.33.60 in 668.15s (42 hosts left)
+Completed Connect Scan against 192.206.230.147 in 668.56s (41 hosts left)
+Completed Connect Scan against 192.206.230.60 in 668.95s (40 hosts left)
+Completed Connect Scan against 23.77.6.223 in 669.45s (39 hosts left)
+Completed Connect Scan against 35.202.34.114 in 670.11s (38 hosts left)
+Completed Connect Scan against 23.200.232.240 in 670.65s (37 hosts left)
+Discovered open port 8085/tcp on 34.120.105.209
+Increasing send delay for 34.120.105.209 from 320 to 640 due to max_successful_tryno increase to 5
+Completed Connect Scan against 35.208.29.66 in 670.97s (36 hosts left)
+Increasing send delay for 34.120.58.89 from 160 to 320 due to 11 out of 27 dropped probes since last increase.
+Completed Connect Scan against 34.70.68.244 in 674.60s (35 hosts left)
+Increasing send delay for 34.102.233.216 from 160 to 320 due to 11 out of 24 dropped probes since last increase.
+Connect Scan Timing: About 86.61% done; ETC: 22:25 (0:01:45 remaining)
+Completed Connect Scan against 192.206.230.127 in 679.33s (34 hosts left)
+Completed Connect Scan against 185.90.33.68 in 680.43s (33 hosts left)
+Completed Connect Scan against 23.77.6.223 in 681.27s (32 hosts left)
+Completed Connect Scan against 168.61.148.252 in 681.53s (31 hosts left)
+Completed Connect Scan against 192.206.230.146 in 682.94s (30 hosts left)
+Completed Connect Scan against 192.206.230.168 in 683.92s (29 hosts left)
+Completed Connect Scan against 192.206.230.80 in 684.02s (28 hosts left)
+Completed Connect Scan against 168.61.148.252 in 684.44s (27 hosts left)
+Completed Connect Scan against 192.206.230.127 in 685.24s (26 hosts left)
+Completed Connect Scan against 192.206.230.130 in 685.83s (25 hosts left)
+Completed Connect Scan against 192.206.230.127 in 688.68s (24 hosts left)
+Completed Connect Scan against 23.185.0.1 in 688.82s (23 hosts left)
+Completed Connect Scan against 35.202.34.114 in 689.23s (22 hosts left)
+Completed Connect Scan against 192.206.230.129 in 689.63s (21 hosts left)
+Completed Connect Scan against 192.206.230.140 in 690.13s (20 hosts left)
+Completed Connect Scan against 104.111.170.148 in 690.13s (19 hosts left)
+Completed Connect Scan against 52.146.51.171 in 691.13s (18 hosts left)
+Completed Connect Scan against 35.190.154.173 in 693.44s (17 hosts left)
+Completed Connect Scan against 192.206.230.181 in 693.99s (16 hosts left)
+Completed Connect Scan against 192.206.230.181 in 694.39s (15 hosts left)
+Completed Connect Scan against 192.206.230.182 in 694.89s (14 hosts left)
+Completed Connect Scan against 192.206.230.181 in 695.29s (13 hosts left)
+Completed Connect Scan against 93.91.25.196 in 695.32s (12 hosts left)
+Completed Connect Scan against 204.93.89.199 in 695.68s (11 hosts left)
+Discovered open port 5901/tcp on 35.190.126.18
+Increasing send delay for 35.190.126.18 from 640 to 1000 due to max_successful_tryno increase to 5
+Discovered open port 8085/tcp on 34.98.124.4
+Discovered open port 465/tcp on 34.120.58.89
+Discovered open port 8099/tcp on 34.120.58.89
+Discovered open port 43/tcp on 34.120.14.227
+Discovered open port 1935/tcp on 34.102.233.216
+Discovered open port 5901/tcp on 35.244.168.225
+Discovered open port 9200/tcp on 34.98.124.4
+Discovered open port 83/tcp on 35.244.170.204
+Discovered open port 85/tcp on 34.120.14.227
+Discovered open port 8090/tcp on 34.102.233.216
+Discovered open port 5901/tcp on 35.244.198.15
+Connect Scan Timing: About 90.18% done; ETC: 22:27 (0:01:26 remaining)
+Discovered open port 9100/tcp on 34.98.124.4
+Discovered open port 8081/tcp on 34.102.233.216
+Discovered open port 5999/tcp on 35.244.168.225
+Discovered open port 85/tcp on 35.244.170.204
+Discovered open port 20000/tcp on 34.120.14.227
+Discovered open port 84/tcp on 34.120.58.89
+Completed Connect Scan against 34.102.233.216 in 838.90s (10 hosts left)
+Discovered open port 8088/tcp on 35.244.170.204
+Discovered open port 30000/tcp on 35.244.170.204
+Connect Scan Timing: About 90.74% done; ETC: 22:28 (0:01:29 remaining)
+Discovered open port 465/tcp on 34.120.14.227
+Discovered open port 8099/tcp on 34.120.14.227
+Discovered open port 83/tcp on 35.190.126.18
+Discovered open port 8085/tcp on 35.244.170.204
+Discovered open port 43/tcp on 35.244.168.225
+Discovered open port 9200/tcp on 35.244.170.204
+Discovered open port 5999/tcp on 35.244.198.15
+Discovered open port 9100/tcp on 35.244.170.204
+Connect Scan Timing: About 91.21% done; ETC: 22:30 (0:01:33 remaining)
+Discovered open port 20000/tcp on 35.244.170.204
+Discovered open port 85/tcp on 35.244.168.225
+Discovered open port 1085/tcp on 35.190.126.18
+Discovered open port 8088/tcp on 34.98.84.144
+Discovered open port 9100/tcp on 34.120.105.209
+Discovered open port 84/tcp on 34.120.14.227
+Discovered open port 20000/tcp on 35.244.168.225
+Connect Scan Timing: About 91.70% done; ETC: 22:31 (0:01:36 remaining)
+Discovered open port 5432/tcp on 35.227.193.115
+Discovered open port 5222/tcp on 35.244.170.204
+Discovered open port 1935/tcp on 34.120.58.89
+Discovered open port 465/tcp on 35.244.168.225
+Discovered open port 8099/tcp on 35.244.168.225
+Discovered open port 43/tcp on 35.244.198.15
+Connect Scan Timing: About 92.19% done; ETC: 22:33 (0:01:38 remaining)
+Discovered open port 8090/tcp on 34.120.58.89
+Discovered open port 465/tcp on 35.244.170.204
+Discovered open port 1443/tcp on 34.120.105.209
+Discovered open port 89/tcp on 34.120.105.209
+Discovered open port 8086/tcp on 34.120.105.209
+Discovered open port 1084/tcp on 34.98.84.144
+Discovered open port 5432/tcp on 34.98.124.4
+Discovered open port 8099/tcp on 35.244.170.204
+Discovered open port 8081/tcp on 34.120.58.89
+Connect Scan Timing: About 92.70% done; ETC: 22:35 (0:01:39 remaining)
+Discovered open port 85/tcp on 35.244.198.15
+Discovered open port 1089/tcp on 34.98.124.4
+Discovered open port 84/tcp on 35.244.168.225
+Completed Connect Scan against 34.120.58.89 in 1302.89s (9 hosts left)
+Discovered open port 5222/tcp on 34.120.105.209
+Discovered open port 1935/tcp on 34.120.14.227
+Connect Scan Timing: About 93.14% done; ETC: 22:36 (0:01:40 remaining)
+Discovered open port 83/tcp on 34.98.84.144
+Discovered open port 20000/tcp on 35.244.198.15
+Discovered open port 84/tcp on 35.244.170.204
+Discovered open port 8090/tcp on 34.120.14.227
+Connect Scan Timing: About 93.55% done; ETC: 22:38 (0:01:40 remaining)
+Discovered open port 85/tcp on 34.120.105.209
+Discovered open port 465/tcp on 35.244.198.15
+Discovered open port 8081/tcp on 34.120.14.227
+Connect Scan Timing: About 93.95% done; ETC: 22:40 (0:01:40 remaining)
+Discovered open port 8099/tcp on 35.244.198.15
+Discovered open port 5999/tcp on 34.98.124.4
+Completed Connect Scan against 34.120.14.227 in 1619.60s (8 hosts left)
+Discovered open port 1089/tcp on 34.120.105.209
+Connect Scan Timing: About 94.31% done; ETC: 22:41 (0:01:40 remaining)
+Discovered open port 1935/tcp on 35.244.168.225
+Discovered open port 5901/tcp on 34.98.84.144
+Connect Scan Timing: About 94.62% done; ETC: 22:43 (0:01:40 remaining)
+Discovered open port 85/tcp on 35.190.126.18
+Discovered open port 8090/tcp on 35.244.168.225
+Discovered open port 1935/tcp on 35.244.170.204
+Discovered open port 43/tcp on 34.98.124.4
+Connect Scan Timing: About 94.94% done; ETC: 22:45 (0:01:39 remaining)
+Discovered open port 84/tcp on 35.244.198.15
+Discovered open port 8081/tcp on 35.244.168.225
+Discovered open port 8090/tcp on 35.244.170.204
+Discovered open port 85/tcp on 34.98.124.4
+Connect Scan Timing: About 95.25% done; ETC: 22:46 (0:01:38 remaining)
+Completed Connect Scan against 35.244.168.225 in 2002.93s (7 hosts left)
+Discovered open port 20000/tcp on 35.190.126.18
+Discovered open port 20000/tcp on 34.120.105.209
+Discovered open port 5999/tcp on 34.98.84.144
+Connect Scan Timing: About 95.50% done; ETC: 22:48 (0:01:37 remaining)
+Discovered open port 8081/tcp on 35.244.170.204
+Discovered open port 9200/tcp on 35.227.193.115
+Discovered open port 20000/tcp on 34.98.124.4
+Completed Connect Scan against 35.244.170.204 in 2155.36s (6 hosts left)
+Connect Scan Timing: About 95.72% done; ETC: 22:50 (0:01:37 remaining)
+Discovered open port 465/tcp on 34.120.105.209
+Discovered open port 8099/tcp on 34.120.105.209
+Connect Scan Timing: About 95.87% done; ETC: 22:51 (0:01:37 remaining)
+Discovered open port 465/tcp on 34.98.124.4
+Discovered open port 8099/tcp on 34.98.124.4
+Discovered open port 465/tcp on 35.190.126.18
+Discovered open port 8099/tcp on 35.190.126.18
+Connect Scan Timing: About 96.03% done; ETC: 22:53 (0:01:38 remaining)
+Connect Scan Timing: About 96.18% done; ETC: 22:55 (0:01:38 remaining)
+Discovered open port 43/tcp on 34.98.84.144
+Discovered open port 5999/tcp on 35.227.193.115
+Connect Scan Timing: About 96.34% done; ETC: 22:56 (0:01:37 remaining)
+Discovered open port 84/tcp on 34.120.105.209
+Discovered open port 1935/tcp on 35.244.198.15
+Connect Scan Timing: About 96.49% done; ETC: 22:58 (0:01:37 remaining)
+Discovered open port 84/tcp on 34.98.124.4
+Discovered open port 85/tcp on 34.98.84.144
+Connect Scan Timing: About 96.65% done; ETC: 23:00 (0:01:36 remaining)
+Connect Scan Timing: About 96.80% done; ETC: 23:01 (0:01:34 remaining)
+Discovered open port 8090/tcp on 35.244.198.15
+Discovered open port 84/tcp on 35.190.126.18
+Connect Scan Timing: About 96.95% done; ETC: 23:03 (0:01:33 remaining)
+Discovered open port 20000/tcp on 34.98.84.144
+Connect Scan Timing: About 97.10% done; ETC: 23:04 (0:01:31 remaining)
+Discovered open port 43/tcp on 35.227.193.115
+Connect Scan Timing: About 97.24% done; ETC: 23:06 (0:01:29 remaining)
+Discovered open port 8081/tcp on 35.244.198.15
+Connect Scan Timing: About 97.38% done; ETC: 23:07 (0:01:27 remaining)
+Completed Connect Scan against 35.244.198.15 in 3312.39s (5 hosts left)
+Connect Scan Timing: About 97.51% done; ETC: 23:09 (0:01:25 remaining)
+Discovered open port 85/tcp on 35.227.193.115
+Discovered open port 465/tcp on 34.98.84.144
+Discovered open port 8099/tcp on 34.98.84.144
+Connect Scan Timing: About 97.61% done; ETC: 23:10 (0:01:23 remaining)
+Connect Scan Timing: About 97.71% done; ETC: 23:12 (0:01:22 remaining)
+Discovered open port 1935/tcp on 34.120.105.209
+Connect Scan Timing: About 97.81% done; ETC: 23:13 (0:01:20 remaining)
+Discovered open port 1935/tcp on 34.98.124.4
+Discovered open port 20000/tcp on 35.227.193.115
+Connect Scan Timing: About 97.91% done; ETC: 23:14 (0:01:18 remaining)
+Connect Scan Timing: About 98.00% done; ETC: 23:15 (0:01:16 remaining)
+Stats: 1:40:34 elapsed; 64 hosts completed (128 up), 64 undergoing Connect Scan
+Connect Scan Timing: About 98.04% done; ETC: 23:16 (0:01:15 remaining)
+Stats: 1:40:36 elapsed; 64 hosts completed (128 up), 64 undergoing Connect Scan
+Connect Scan Timing: About 98.04% done; ETC: 23:16 (0:01:15 remaining)
+Stats: 1:40:47 elapsed; 64 hosts completed (128 up), 64 undergoing Connect Scan
+Connect Scan Timing: About 98.06% done; ETC: 23:16 (0:01:15 remaining)
+Stats: 1:40:48 elapsed; 64 hosts completed (128 up), 64 undergoing Connect Scan
+Connect Scan Timing: About 98.06% done; ETC: 23:16 (0:01:15 remaining)
+Stats: 1:40:49 elapsed; 64 hosts completed (128 up), 64 undergoing Connect Scan
+Connect Scan Timing: About 98.06% done; ETC: 23:16 (0:01:15 remaining)
+Stats: 1:40:59 elapsed; 64 hosts completed (128 up), 64 undergoing Connect Scan
+Connect Scan Timing: About 98.07% done; ETC: 23:16 (0:01:14 remaining)
+Discovered open port 8090/tcp on 34.120.105.209
+Connect Scan Timing: About 98.16% done; ETC: 23:18 (0:01:12 remaining)
+Discovered open port 8090/tcp on 34.98.124.4
+Connect Scan Timing: About 98.25% done; ETC: 23:19 (0:01:10 remaining)
+Connect Scan Timing: About 98.33% done; ETC: 23:20 (0:01:08 remaining)
+Discovered open port 465/tcp on 35.227.193.115
+Discovered open port 8099/tcp on 35.227.193.115
+Discovered open port 84/tcp on 34.98.84.144
+Connect Scan Timing: About 98.42% done; ETC: 23:21 (0:01:06 remaining)
+Discovered open port 8081/tcp on 34.120.105.209
+Connect Scan Timing: About 98.50% done; ETC: 23:22 (0:01:03 remaining)
+Discovered open port 8081/tcp on 34.98.124.4
+Connect Scan Timing: About 98.58% done; ETC: 23:23 (0:01:01 remaining)
+Stats: 1:48:20 elapsed; 64 hosts completed (128 up), 64 undergoing Connect Scan
+Connect Scan Timing: About 98.60% done; ETC: 23:24 (0:01:00 remaining)
+Stats: 1:48:23 elapsed; 64 hosts completed (128 up), 64 undergoing Connect Scan
+Connect Scan Timing: About 98.60% done; ETC: 23:24 (0:01:00 remaining)
+Completed Connect Scan against 34.120.105.209 in 4270.85s (4 hosts left)
+Connect Scan Timing: About 98.66% done; ETC: 23:25 (0:00:58 remaining)
+Discovered open port 1935/tcp on 35.190.126.18
+Completed Connect Scan against 34.98.124.4 in 4350.90s (3 hosts left)
+Connect Scan Timing: About 98.70% done; ETC: 23:26 (0:00:57 remaining)
+Connect Scan Timing: About 98.73% done; ETC: 23:27 (0:00:57 remaining)
+Connect Scan Timing: About 98.76% done; ETC: 23:27 (0:00:56 remaining)
+Stats: 1:52:45 elapsed; 64 hosts completed (128 up), 64 undergoing Connect Scan
+Connect Scan Timing: About 98.78% done; ETC: 23:28 (0:00:56 remaining)
+Stats: 1:52:46 elapsed; 64 hosts completed (128 up), 64 undergoing Connect Scan
+Connect Scan Timing: About 98.78% done; ETC: 23:28 (0:00:56 remaining)
+Connect Scan Timing: About 98.81% done; ETC: 23:29 (0:00:55 remaining)
+Connect Scan Timing: About 98.84% done; ETC: 23:30 (0:00:54 remaining)
+Connect Scan Timing: About 98.87% done; ETC: 23:31 (0:00:53 remaining)
+Connect Scan Timing: About 98.90% done; ETC: 23:32 (0:00:53 remaining)
+Connect Scan Timing: About 98.93% done; ETC: 23:32 (0:00:52 remaining)
+Discovered open port 8090/tcp on 35.190.126.18
+Discovered open port 84/tcp on 35.227.193.115
+Stats: 1:58:02 elapsed; 64 hosts completed (128 up), 64 undergoing Connect Scan
+Connect Scan Timing: About 98.95% done; ETC: 23:33 (0:00:51 remaining)
+Connect Scan Timing: About 98.98% done; ETC: 23:34 (0:00:50 remaining)
+Connect Scan Timing: About 99.01% done; ETC: 23:35 (0:00:49 remaining)
+Connect Scan Timing: About 99.03% done; ETC: 23:36 (0:00:48 remaining)
+Connect Scan Timing: About 99.06% done; ETC: 23:36 (0:00:48 remaining)
+Connect Scan Timing: About 99.09% done; ETC: 23:37 (0:00:47 remaining)
+Connect Scan Timing: About 99.11% done; ETC: 23:38 (0:00:46 remaining)
+Connect Scan Timing: About 99.14% done; ETC: 23:39 (0:00:45 remaining)
+Connect Scan Timing: About 99.16% done; ETC: 23:39 (0:00:44 remaining)
+Connect Scan Timing: About 99.19% done; ETC: 23:40 (0:00:43 remaining)
+Discovered open port 8081/tcp on 35.190.126.18
+Connect Scan Timing: About 99.21% done; ETC: 23:41 (0:00:42 remaining)
+Connect Scan Timing: About 99.23% done; ETC: 23:42 (0:00:41 remaining)
+Stats: 2:07:12 elapsed; 64 hosts completed (128 up), 64 undergoing Connect Scan
+Connect Scan Timing: About 99.25% done; ETC: 23:42 (0:00:41 remaining)
+Connect Scan Timing: About 99.27% done; ETC: 23:43 (0:00:40 remaining)
+Connect Scan Timing: About 99.29% done; ETC: 23:43 (0:00:39 remaining)
+Connect Scan Timing: About 99.31% done; ETC: 23:44 (0:00:38 remaining)
+Stats: 2:09:32 elapsed; 64 hosts completed (128 up), 64 undergoing Connect Scan
+Connect Scan Timing: About 99.32% done; ETC: 23:44 (0:00:38 remaining)
+Completed Connect Scan against 35.190.126.18 in 5530.63s (2 hosts left)
+Connect Scan Timing: About 99.34% done; ETC: 23:45 (0:00:37 remaining)
+Connect Scan Timing: About 99.35% done; ETC: 23:46 (0:00:37 remaining)
+Connect Scan Timing: About 99.36% done; ETC: 23:46 (0:00:36 remaining)
+Discovered open port 1935/tcp on 34.98.84.144
+Connect Scan Timing: About 99.38% done; ETC: 23:47 (0:00:36 remaining)
+Connect Scan Timing: About 99.39% done; ETC: 23:47 (0:00:35 remaining)
+Connect Scan Timing: About 99.40% done; ETC: 23:48 (0:00:35 remaining)
+Connect Scan Timing: About 99.41% done; ETC: 23:49 (0:00:34 remaining)
+Connect Scan Timing: About 99.42% done; ETC: 23:49 (0:00:34 remaining)
+Connect Scan Timing: About 99.44% done; ETC: 23:50 (0:00:33 remaining)
+Connect Scan Timing: About 99.45% done; ETC: 23:50 (0:00:33 remaining)
+Connect Scan Timing: About 99.46% done; ETC: 23:51 (0:00:32 remaining)
+Connect Scan Timing: About 99.47% done; ETC: 23:51 (0:00:32 remaining)
+Connect Scan Timing: About 99.48% done; ETC: 23:52 (0:00:31 remaining)
+Connect Scan Timing: About 99.49% done; ETC: 23:53 (0:00:31 remaining)
+Connect Scan Timing: About 99.50% done; ETC: 23:53 (0:00:30 remaining)
+Discovered open port 8090/tcp on 34.98.84.144
+Stats: 2:25:33 elapsed; 64 hosts completed (128 up), 64 undergoing Connect Scan
+Connect Scan Timing: About 99.65% done; ETC: 00:00 (0:00:23 remaining)
+Stats: 2:25:36 elapsed; 64 hosts completed (128 up), 64 undergoing Connect Scan
+Connect Scan Timing: About 99.65% done; ETC: 00:00 (0:00:23 remaining)
