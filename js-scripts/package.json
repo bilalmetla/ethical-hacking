@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "nfqueue": "^0.3.2",
+    "pcap": "^3.1.0"
+  }
+}
